@@ -1,6 +1,7 @@
 // Imports
 import Head from "next/head"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 // Props
 type LayoutProps = {
@@ -21,7 +22,7 @@ function Layout({ children }: LayoutProps) {
 			</header>
 			<main>{children}</main>
 			<footer>
-				<p>Footer</p>
+				<Footer />
 			</footer>
 		</>
 	)
