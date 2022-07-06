@@ -12,4 +12,5 @@ function MyApp({ Component, pageProps }: AppProps) {
 	)
 }
 
+// Exports
 export default MyApp

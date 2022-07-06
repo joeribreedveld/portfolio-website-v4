@@ -7,7 +7,7 @@ type LayoutProps = {
 }
 
 // Functions
-export default function Layout({ children }: LayoutProps) {
+function Layout({ children }: LayoutProps) {
 	return (
 		<>
 			<Head>
@@ -25,3 +25,6 @@ export default function Layout({ children }: LayoutProps) {
 		</>
 	)
 }
+
+// Exports
+export default Layout
