@@ -10,17 +10,17 @@ function Footer() {
 					<h4 className='font-bold pb-4'>Contact</h4>
 					<ul className='flex gap-4 flex-col'>
 						<li>
-							<a href='https://linkedin.com/in/joeribreedveld' target='_blank'>
+							<a href='https://linkedin.com/in/joeribreedveld' target='_blank' rel='noreferrer'>
 								LinkedIn
 							</a>
 						</li>
 						<li>
-							<a href='https://github.com/duck1s' target='_blank'>
+							<a href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
 								GitHub
 							</a>
 						</li>
 						<li>
-							<a href='mailto:joeri.breedveld123@gmail.com' target='_blank'>
+							<a href='mailto:joeri.breedveld123@gmail.com' target='_blank' rel='noreferrer'>
 								Email
 							</a>
 						</li>
