@@ -20,7 +20,7 @@ function Layout({ children }: LayoutProps) {
 			<header>
 				<Navbar />
 			</header>
-			<main className='min-h-screen page-padding-y'>{children}</main>
+			<main className='min-h-screen'>{children}</main>
 			<footer className='page-padding-x py-8 bg-gray-700 text-white'>
 				<Footer />
 			</footer>

@@ -8,6 +8,7 @@ module.exports = {
 				serif: ["serif", "Roboto"],
 				sans: ["sans-serif", "Roboto"],
 				mono: ["monospace", "Roboto Mono"],
+				mont: ["sans-serif", "Montserrat"],
 			},
 			colors: {
 				black: "#1D1D1F",
