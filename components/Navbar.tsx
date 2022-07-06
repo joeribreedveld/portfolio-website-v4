@@ -8,7 +8,7 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className='fixed page-padding-x flex justify-between w-full py-8 items-center'>
+			<nav className='fixed page-padding-x flex justify-between w-full py-8 items-center bg-gray-100'>
 				<h3 onClick={() => router.push("/")} className='text-xl font-bold hover:cursor-pointer'>
 					Joeri Breedveld
 				</h3>

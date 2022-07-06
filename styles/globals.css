@@ -12,6 +12,10 @@
         @apply px-4 sm:px-16 md:px-32 lg:px-48 xl:px-64 2xl:px-80
     }
 
+    .page-padding-y {
+        @apply pb-16 pt-40
+    }
+
     .navbar-gap {
         @apply gap-4 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24
     }

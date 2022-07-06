@@ -3,7 +3,11 @@ import type { NextPage } from "next"
 
 // Functions
 const About: NextPage = () => {
-	return <p>About</p>
+	return (
+		<div className='page-padding-x'>
+			<p>About</p>
+		</div>
+	)
 }
 
 // Exports
