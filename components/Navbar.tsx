@@ -8,9 +8,9 @@ function Navbar() {
 
 	return (
 		<>
-			<nav>
-				<h3>Joeri Breedveld</h3>
-				<ul>
+			<nav className='fixed page-padding-x flex justify-between w-full py-8'>
+				<h3 className='text-xl font-bold'>Joeri Breedveld</h3>
+				<ul className='flex navbar-gap items-center'>
 					<li>
 						<Link href='/'>
 							<a>Home</a>
@@ -26,7 +26,7 @@ function Navbar() {
 							<a>Projects</a>
 						</Link>
 					</li>
-					<button onClick={() => router.push("/contact")}>
+					<button onClick={() => router.push("/contact")} className='border border-black px-6 py-2'>
 						<a>Contact</a>
 					</button>
 				</ul>
