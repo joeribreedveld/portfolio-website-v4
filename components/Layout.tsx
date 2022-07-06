@@ -1,5 +1,6 @@
 // Imports
 import Head from "next/head"
+import Navbar from "../components/Navbar"
 
 // Props
 type LayoutProps = {
@@ -16,7 +17,7 @@ function Layout({ children }: LayoutProps) {
 				<title>Joeri Breedveld | Full Stack Developer</title>
 			</Head>
 			<header>
-				<p>Header</p>
+				<Navbar />
 			</header>
 			<main>{children}</main>
 			<footer>
