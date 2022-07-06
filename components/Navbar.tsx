@@ -26,7 +26,7 @@ function Navbar() {
 					</button>
 				</div>
 
-				<section className='flex flex-col w-full pt-8' className={open == false ? "flex flex-col w-full pt-8 hidden" : "flex flex-col w-full pt-8"}>
+				<section className={open == false ? "flex flex-col w-full pt-8 hidden" : "flex flex-col w-full pt-8"}>
 					<ul className='flex gap-4 flex-col'>
 						<li
 							onClick={() => {
