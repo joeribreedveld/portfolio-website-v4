@@ -27,7 +27,7 @@ function Footer() {
 					</ul>
 				</section>
 				<section>
-					<h4 className='font-bold pb-4'>Navigation</h4>
+					<h4 className='font-bold pb-4'>Navigatie</h4>
 					<ul className='flex gap-4 flex-col'>
 						<li>
 							<Link href='/'>
@@ -36,12 +36,12 @@ function Footer() {
 						</li>
 						<li>
 							<Link href='/about'>
-								<a>About</a>
+								<a>Over mij</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/projects'>
-								<a>Projects</a>
+								<a>Projecten</a>
 							</Link>
 						</li>
 						<li>
