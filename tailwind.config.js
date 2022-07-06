@@ -2,7 +2,14 @@
 module.exports = {
 	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				body: ["sans-serif", "Roboto"],
+				serif: ["serif", "Roboto"],
+				sans: ["sans-serif", "Roboto"],
+				mono: ["monospace", "Roboto Mono"],
+			},
+		},
 	},
 	plugins: [],
 }
