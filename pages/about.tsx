@@ -7,7 +7,7 @@ const About: NextPage = () => {
 		<div className='page-padding-x page-padding-y flex flex-col gap-16'>
 			<section>
 				<h2 className='text-2xl font-bold pb-8'>Over mij</h2>
-				<p className='w-2/4'>
+				<p className='md:w-2/4'>
 					Hallo mijn naam is Joeri Breedveld. Ik ben een Junior Full Stack Developer en ik woon in Amsterdam. Ik programmeer sinds 2021 en ik studeer ook Software Development bij
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
