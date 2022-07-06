@@ -1,39 +1,100 @@
 // Imports
 import Link from "next/link"
 import { useRouter } from "next/router"
+import { useState } from "react"
+import { BiMenu } from "react-icons/bi"
 
 // Functions
 function Navbar() {
 	const router = useRouter()
+	const [open, setOpen] = useState(true)
 
 	return (
 		<>
-			<nav className='fixed page-padding-x flex justify-between w-full py-6 items-center bg-white'>
-				<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black'>
-					Joeri Breedveld
-				</h3>
-				<ul className='flex navbar-gap items-center'>
-					<li>
-						<Link href='/'>
-							<a className={router.pathname == "/" ? "text-gray-400 hover:cursor-default" : ""}>Home</a>
-						</Link>
-					</li>
-					<li>
-						<Link href='/about'>
-							<a className={router.pathname == "/about" ? "text-gray-400 hover:cursor-default" : ""}>Over mij</a>
-						</Link>
-					</li>
-					<li>
-						<Link href='/projects'>
-							<a className={router.pathname == "/projects" ? "text-gray-400 hover:cursor-default" : ""}>Projecten</a>
-						</Link>
-					</li>
-					<li>
-						<Link href='/contact'>
-							<a className={router.pathname == "/contact" ? "text-gray-400 hover:cursor-default" : ""}>Contact</a>
-						</Link>
-					</li>
-				</ul>
+			<nav className='fixed page-padding-x flex justify-between w-full py-6 items-center bg-white flex-col md:flex-row'>
+				<div className='flex justify-between w-full md:w-[unset]'>
+					<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black'>
+						Joeri Breedveld
+					</h3>
+					<button
+						onClick={() => {
+							open == false ? setOpen(true) : setOpen(false)
+						}}
+						className='md:hidden'
+					>
+						<BiMenu size={24} />
+					</button>
+				</div>
+
+				<section className='flex flex-col w-full pt-8' className={open == false ? "flex flex-col w-full pt-8 hidden" : "flex flex-col w-full pt-8"}>
+					<ul className='flex gap-4 flex-col'>
+						<li
+							onClick={() => {
+								open == false ? setOpen(true) : setOpen(false)
+							}}
+							className='md:hidden'
+						>
+							<Link href='/'>
+								<a className={router.pathname == "/" ? "text-gray-400 hover:cursor-default" : ""}>Home</a>
+							</Link>
+						</li>
+						<li
+							onClick={() => {
+								open == false ? setOpen(true) : setOpen(false)
+							}}
+							className='md:hidden'
+						>
+							<Link href='/about'>
+								<a className={router.pathname == "/about" ? "text-gray-400 hover:cursor-default" : ""}>Over mij</a>
+							</Link>
+						</li>
+						<li
+							onClick={() => {
+								open == false ? setOpen(true) : setOpen(false)
+							}}
+							className='md:hidden'
+						>
+							<Link href='/projects'>
+								<a className={router.pathname == "/projects" ? "text-gray-400 hover:cursor-default" : ""}>Projecten</a>
+							</Link>
+						</li>
+						<li
+							onClick={() => {
+								open == false ? setOpen(true) : setOpen(false)
+							}}
+							className='md:hidden'
+						>
+							<Link href='/contact'>
+								<a className={router.pathname == "/contact" ? "text-gray-400 hover:cursor-default" : ""}>Contact</a>
+							</Link>
+						</li>
+					</ul>
+				</section>
+
+				<section className='flex flex-col hidden md:flex'>
+					<ul className='flex navbar-gap items-center'>
+						<li>
+							<Link href='/'>
+								<a className={router.pathname == "/" ? "text-gray-400 hover:cursor-default" : ""}>Home</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/about'>
+								<a className={router.pathname == "/about" ? "text-gray-400 hover:cursor-default" : ""}>Over mij</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/projects'>
+								<a className={router.pathname == "/projects" ? "text-gray-400 hover:cursor-default" : ""}>Projecten</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/contact'>
+								<a className={router.pathname == "/contact" ? "text-gray-400 hover:cursor-default" : ""}>Contact</a>
+							</Link>
+						</li>
+					</ul>
+				</section>
 			</nav>
 		</>
 	)
