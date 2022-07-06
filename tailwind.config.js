@@ -9,6 +9,9 @@ module.exports = {
 				sans: ["sans-serif", "Roboto"],
 				mono: ["monospace", "Roboto Mono"],
 			},
+			colors: {
+				black: "#1D1D1F",
+			},
 		},
 	},
 	plugins: [],

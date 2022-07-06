@@ -19,3 +19,6 @@
 
 
 /* Apply */
+html {
+    @apply text-black
+}

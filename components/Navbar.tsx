@@ -8,27 +8,31 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className='fixed page-padding-x flex justify-between w-full py-8'>
-				<h3 className='text-xl font-bold'>Joeri Breedveld</h3>
+			<nav className='fixed page-padding-x flex justify-between w-full py-8 items-center'>
+				<h3 onClick={() => router.push("/")} className='text-xl font-bold hover:cursor-pointer'>
+					Joeri Breedveld
+				</h3>
 				<ul className='flex navbar-gap items-center'>
 					<li>
 						<Link href='/'>
-							<a>Home</a>
+							<a className={router.pathname == "/" ? "text-gray-400 hover:cursor-default" : ""}>Home</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/about'>
-							<a>About</a>
+							<a className={router.pathname == "/about" ? "text-gray-400 hover:cursor-default" : ""}>About</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/projects'>
-							<a>Projects</a>
+							<a className={router.pathname == "/projects" ? "text-gray-400 hover:cursor-default" : ""}>Projects</a>
 						</Link>
 					</li>
-					<button onClick={() => router.push("/contact")} className='border border-black px-6 py-2'>
-						<a>Contact</a>
-					</button>
+					<li>
+						<Link href='/contact'>
+							<a className={router.pathname == "/contact" ? "text-gray-400 hover:cursor-default" : ""}>Contact</a>
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</>
