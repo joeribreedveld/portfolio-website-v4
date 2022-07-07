@@ -4,7 +4,7 @@
 			"id": "1",
 			"title": "joeribreedveld.com",
 			"img": "/assets/img/joeribreedveld.jpg",
-			"intro": "intro",
+			"intro": "Portfolio website. De website waar je nu naar kijkt.",
 			"description": "description",
 			"github": "https://github.com/duck1s/portfolio-website-v2",
 			"live": "https://joeribreedveld.com",
@@ -17,12 +17,25 @@
 			"id": "2",
 			"title": "oorsprongsdocumenten.nl",
 			"img": "/assets/img/oorsprongsdocumenten.jpg",
-			"intro": "intro",
+			"intro": "MERN ecommerce website met support pagina en admin panel.",
 			"description": "description",
 			"github": "https://github.com/oorsprongsdocumenten/oorsprongsdocumenten.nl",
 			"live": "https://test.oorsprongsdocumenten.nl",
 			"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
 			"date": "June 2022 - Now"
+		}
+	],
+	[
+		{
+			"id": "2",
+			"title": "Task Manager API",
+			"img": "/assets/img/taskmanagerapi.jpg",
+			"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
+			"description": "description",
+			"github": "https://github.com/duck1s/task-manager-api",
+			"live": "",
+			"skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
+			"date": "Juni 2022"
 		}
 	]
 ]

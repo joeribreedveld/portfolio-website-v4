@@ -22,7 +22,7 @@ const Projects: NextPage = () => {
 				<ul className=''>{skillList}</ul>
 				<p className='text-quaternary font-bold'>{project[0].date}</p>
 				<a href='#' className='text-quinary underline'>
-					Meer informatie
+					Meer informatie (werkt nog niet)
 				</a>
 			</li>
 		)
