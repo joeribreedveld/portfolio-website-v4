@@ -8,14 +8,14 @@ const Projects: NextPage = () => {
 	const projectsList = projects.map((project) => {
 		const skillList = project[0].skills.map((skill) => {
 			return (
-				<li className='flex items-center gap-2'>
+				<li key={skill} className='flex items-center gap-2'>
 					<FaArrowRight className='text-tertiary' /> {skill}
 				</li>
 			)
 		})
 
 		return (
-			<li className='flex flex-col gap-2'>
+			<li key={project[0].id} className='flex flex-col gap-2'>
 				<h4 className='text-xl font-bold text-secondary'>{project[0].title}</h4>
 				<p>{project[0].intro}</p>
 
