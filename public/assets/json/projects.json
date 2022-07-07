@@ -1,0 +1,28 @@
+[
+	[
+		{
+			"id": "1",
+			"title": "joeribreedveld.com",
+			"img": "/assets/img/joeribreedveld.jpg",
+			"intro": "intro",
+			"description": "description",
+			"github": "https://github.com/duck1s/portfolio-website-v2",
+			"live": "https://joeribreedveld.com",
+			"skills": ["Next.js", "TailwindCSS", "Adobe XD", "TypeScript"],
+			"date": "Juli 2022"
+		}
+	],
+	[
+		{
+			"id": "2",
+			"title": "oorsprongsdocumenten.nl",
+			"img": "/assets/img/oorsprongsdocumenten.jpg",
+			"intro": "intro",
+			"description": "description",
+			"github": "https://github.com/oorsprongsdocumenten/oorsprongsdocumenten.nl",
+			"live": "https://test.oorsprongsdocumenten.nl",
+			"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
+			"date": "June 2022 - Now"
+		}
+	]
+]
