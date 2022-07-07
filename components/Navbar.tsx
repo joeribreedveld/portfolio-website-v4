@@ -13,8 +13,8 @@ function Navbar() {
 		<>
 			<nav className='fixed page-padding-x flex justify-between w-full py-6 items-center bg-white flex-col md:flex-row'>
 				<div className='flex justify-between w-full md:w-[unset]'>
-					<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black text-secondary'>
-						Joeri Breedveld
+					<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black text-secondary font-serif text-xl'>
+						Portfolio | Joeri Breedveld
 					</h3>
 					<button
 						onClick={() => {
