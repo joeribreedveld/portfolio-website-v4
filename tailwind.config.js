@@ -12,6 +12,11 @@ module.exports = {
 			},
 			colors: {
 				black: "#1D1D1F",
+				primary: "#264653",
+				secondary: "#2a9d8f",
+				tertiary: "#e9c46a",
+				quaternary: "#f4a261",
+				quinary: "#e76f51",
 			},
 		},
 	},
