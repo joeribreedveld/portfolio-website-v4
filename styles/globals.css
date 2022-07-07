@@ -23,7 +23,7 @@
 
 @layer components {
     .button {
-        @apply bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-8 w-fit rounded-xl font-bold text-white
+        @apply py-4 rounded-sm px-8 w-fit border text-gray-500 border-gray-500 hover:bg-gray-100
     }
 }
 
