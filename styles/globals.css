@@ -23,7 +23,7 @@
 
 @layer components {
     .button {
-        @apply py-4 rounded-md px-12 w-fit font-bold border transition duration-200
+        @apply py-3 px-8 md:py-4 rounded-md md:px-12 w-fit font-bold border transition duration-200
     }
 }
 
