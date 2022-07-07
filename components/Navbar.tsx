@@ -7,7 +7,7 @@ import { BiMenu } from "react-icons/bi"
 // Functions
 function Navbar() {
 	const router = useRouter()
-	const [open, setOpen] = useState(true)
+	const [open, setOpen] = useState(false)
 
 	return (
 		<>
