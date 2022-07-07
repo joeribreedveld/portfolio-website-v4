@@ -11,15 +11,21 @@ const Contact: NextPage = () => {
 			<ul className='flex flex-col gap-2 pb-8'>
 				<li className='flex items-center gap-2'>
 					<FaArrowRight className='text-secondary' />
-					LinkedIn
+					<a href='https://linkedin.com/in/joeribreedveld' target='_blank' rel='noreferrer'>
+						LinkedIn
+					</a>
 				</li>
 				<li className='flex items-center gap-2'>
 					<FaArrowRight className='text-secondary' />
-					GitHub
+					<a href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
+						GitHub
+					</a>
 				</li>
 				<li className='flex items-center gap-2'>
 					<FaArrowRight className='text-secondary' />
-					Email
+					<a href='mailto:joeri.breedveld123@gmail.com' target='_blank' rel='noreferrer'>
+						Email
+					</a>
 				</li>
 			</ul>
 			<ul className='flex flex-col gap-2'>

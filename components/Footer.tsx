@@ -10,17 +10,17 @@ function Footer() {
 					<h4 className='font-bold pb-4'>Contact</h4>
 					<ul className='flex gap-4 flex-col'>
 						<li>
-							<a href='https://linkedin.com/in/joeribreedveld' target='_blank' rel='noreferrer'>
+							<a className='hover:underline' href='https://linkedin.com/in/joeribreedveld' target='_blank' rel='noreferrer'>
 								LinkedIn
 							</a>
 						</li>
 						<li>
-							<a href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
+							<a className='hover:underline' href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
 								GitHub
 							</a>
 						</li>
 						<li>
-							<a href='mailto:joeri.breedveld123@gmail.com' target='_blank' rel='noreferrer'>
+							<a className='hover:underline' href='mailto:joeri.breedveld123@gmail.com' target='_blank' rel='noreferrer'>
 								Email
 							</a>
 						</li>
@@ -31,22 +31,22 @@ function Footer() {
 					<ul className='flex gap-4 flex-col'>
 						<li>
 							<Link href='/'>
-								<a>Home</a>
+								<a className='hover:underline'>Home</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/about'>
-								<a>Over mij</a>
+								<a className='hover:underline'>Over mij</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/projects'>
-								<a>Projecten</a>
+								<a className='hover:underline'>Projecten</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/contact'>
-								<a>Contact</a>
+								<a className='hover:underline'>Contact</a>
 							</Link>
 						</li>
 					</ul>

@@ -3,9 +3,12 @@ import type { NextPage } from "next"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { AiFillMail } from "react-icons/ai"
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 // Functions
 const Home: NextPage = () => {
+	const router = useRouter()
+
 	return (
 		<div className='page-padding-x pb-16 pt-16 justify-between h-screen flex gap-32'>
 			<div className='flex justify-center flex-col'>
@@ -22,8 +25,12 @@ const Home: NextPage = () => {
 					contacten.
 				</p>
 				<div className='flex gap-4'>
-					<button className='button text-white border-tertiary bg-tertiary hover:text-primary hover:border hover:border-tertiary hover:bg-white'>Over mij</button>
-					<button className='button text-primary border-tertiary hover:text-white hover:bg-tertiary'>Projecten</button>
+					<button onClick={() => router.push("/about")} className='button text-white border-tertiary bg-tertiary hover:text-primary hover:border hover:border-tertiary hover:bg-white'>
+						Over mij
+					</button>
+					<button onClick={() => router.push("/projects")} className='button text-primary border-tertiary hover:text-white hover:bg-tertiary'>
+						Projecten
+					</button>
 				</div>
 			</div>
 		</div>
