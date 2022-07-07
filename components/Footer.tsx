@@ -5,7 +5,7 @@ import Link from "next/link"
 function Footer() {
 	return (
 		<>
-			<section className='flex gap-32 pb-8'>
+			<section className='flex gap-8 md:gap-32 pb-8 flex-col md:flex-row'>
 				<section>
 					<h4 className='font-bold pb-4'>Contact</h4>
 					<ul className='flex gap-4 flex-col'>
@@ -52,7 +52,7 @@ function Footer() {
 					</ul>
 				</section>
 			</section>
-			<section className='flex justify-between border-t pt-8 border-gray-400'>
+			<section className='flex justify-between border-t pt-8 border-gray-400 flex-col md:flex-row'>
 				<p>Made by Joeri Breedveld</p>
 				<p>joeri.breedveld123@gmail.com</p>
 			</section>

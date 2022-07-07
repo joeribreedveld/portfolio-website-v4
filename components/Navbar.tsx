@@ -26,7 +26,7 @@ function Navbar() {
 					</button>
 				</div>
 
-				<section className={open == false ? "flex flex-col w-full pt-8 hidden" : "flex flex-col w-full pt-8"}>
+				<section className={open == false ? "flex-col w-full pt-8 hidden" : "flex flex-col w-full md:w-[unset] pt-8"}>
 					<ul className='flex gap-4 flex-col'>
 						<li
 							onClick={() => {
@@ -71,7 +71,7 @@ function Navbar() {
 					</ul>
 				</section>
 
-				<section className='flex flex-col hidden md:flex'>
+				<section className='flex-col hidden md:flex'>
 					<ul className='flex navbar-gap items-center'>
 						<li>
 							<Link href='/'>
