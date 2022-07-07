@@ -7,14 +7,14 @@ const About: NextPage = () => {
 	return (
 		<div className='page-padding-x page-padding-y flex flex-col gap-16'>
 			<section>
-				<h2 className='text-2xl font-bold pb-4 text-primary font-serif'>Over mij</h2>
+				<h2 className='text-2xl font-bold pb-4 text-primary'>Over mij</h2>
 				<p className='md:w-2/4'>
 					Hallo mijn naam is Joeri Breedveld. Ik ben een Junior Full Stack Developer en ik woon in Amsterdam. Ik programmeer sinds 2021 en ik studeer ook Software Development bij
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
 			</section>
 			<section>
-				<h2 className='text-2xl font-bold pb-8 font-serif text-primary'>Mijn skills</h2>
+				<h2 className='text-2xl font-bold pb-8 text-primary'>Mijn skills</h2>
 				<ul className='flex flex-col gap-2 flex-wrap'>
 					<li className='flex items-center gap-2'>
 						<FaArrowRight className='text-secondary' /> HTML
@@ -61,10 +61,10 @@ const About: NextPage = () => {
 				</ul>
 			</section>
 			<section>
-				<h2 className='text-2xl font-bold pb-8 font-serif text-primary'>Werkervaring</h2>
+				<h2 className='text-2xl font-bold pb-8 text-primary'>Werkervaring</h2>
 				<ul className='flex flex-col gap-8'>
 					<li className='flex flex-col gap-2'>
-						<h4 className='text-xl font-bold text-secondary font-serif'>Aruna</h4>
+						<h4 className='text-xl font-bold text-secondary'>Aruna</h4>
 						<p>Ik ging hier samen met andere mensen uit mijn klas een Wordpress website maken.</p>
 						<ul className=''>
 							<li className='flex items-center gap-2'>
@@ -83,7 +83,7 @@ const About: NextPage = () => {
 						</a>
 					</li>
 					<li className='flex flex-col gap-2'>
-						<h4 className='text-xl font-bold text-secondary font-serif'>Oorsprongsdocumenten</h4>
+						<h4 className='text-xl font-bold text-secondary'>Oorsprongsdocumenten</h4>
 						<p>Ik werk aan een MERN ecommerce website met een support artikel systeem.</p>
 						<ul className=''>
 							<li className='flex items-center gap-2'>

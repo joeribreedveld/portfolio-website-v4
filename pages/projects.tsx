@@ -5,7 +5,7 @@ import type { NextPage } from "next"
 const Projects: NextPage = () => {
 	return (
 		<div className='page-padding-x page-padding-y'>
-			<p>Projecten</p>
+			<h2 className='text-2xl font-bold pb-2 text-primary'>Projecten</h2>
 		</div>
 	)
 }

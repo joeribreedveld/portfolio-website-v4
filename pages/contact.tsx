@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa"
 const Contact: NextPage = () => {
 	return (
 		<div className='page-padding-x page-padding-y'>
-			<h2 className='text-2xl font-bold pb-2 text-primary font-serif'>Contact</h2>
+			<h2 className='text-2xl font-bold pb-2 text-primary'>Contact</h2>
 			<p className='text-gray-500 pb-4'>Neem contact met mij op!</p>
 			<ul className='flex flex-col gap-2 pb-8'>
 				<li className='flex items-center gap-2'>
