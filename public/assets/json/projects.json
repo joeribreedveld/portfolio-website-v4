@@ -20,7 +20,7 @@
 			"img": "/assets/img/oorsprongsdocumenten.jpg",
 			"intro": "MERN ecommerce website met support pagina en admin panel.",
 			"description": "description",
-			"github": "https://github.com/oorsprongsdocumenten/oorsprongsdocumenten.nl",
+			"github": "",
 			"live": "https://test.oorsprongsdocumenten.nl",
 			"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
 			"date": "Juni 2022",
@@ -35,7 +35,7 @@
 			"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
 			"description": "description",
 			"github": "https://github.com/duck1s/task-manager-api",
-			"live": "#",
+			"live": "",
 			"skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
 			"date": "Juni 2022",
 			"madeat": "-"
@@ -77,7 +77,7 @@
 			"intro": "Mijn aller eerste website met Next.js",
 			"description": "description",
 			"github": "https://github.com/duck1s/portfolio-website-v3",
-			"live": "#",
+			"live": "",
 			"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
 			"date": "Juni 2022",
 			"madeat": "-"
