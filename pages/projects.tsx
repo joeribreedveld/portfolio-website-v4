@@ -2,7 +2,7 @@
 import type { NextPage } from "next"
 import { FaArrowRight } from "react-icons/fa"
 import projects from "../public/assets/json/projects.json"
-import { FiExternalLink } from "react-icons/fi"
+import { FiExternalLink, FiGithub } from "react-icons/fi"
 
 // Functions
 const Projects: NextPage = () => {
@@ -21,8 +21,15 @@ const Projects: NextPage = () => {
 				<td className='py-4 px-6 font-bold'>{project[0].title}</td>
 				<td className='py-4 px-6 text-gray-600'>{project[0].madeat}</td>
 				<td className='py-4 px-6 text-gray-600'>{skillList}</td>
+				<td className='py-4 px-6'>
+					<a href={project[0].live} target='_blank' rel='noreferrer'>
+						<FiExternalLink size={24} className='text-gray-600' />
+					</a>
+				</td>
 				<td className='py-4 px-6 rounded-r-lg'>
-					<FiExternalLink size={24} className='text-gray-600' />
+					<a href={project[0].github} target='_blank' rel='noreferrer'>
+						<FiGithub size={24} className='text-gray-600' />
+					</a>
 				</td>
 			</tr>
 		)
