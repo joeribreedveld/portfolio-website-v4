@@ -2,36 +2,48 @@
 import type { NextPage } from "next"
 import { FaArrowRight } from "react-icons/fa"
 import projects from "../public/assets/json/projects.json"
+import { FiExternalLink } from "react-icons/fi"
 
 // Functions
 const Projects: NextPage = () => {
 	const projectsList = projects.map((project) => {
 		const skillList = project[0].skills.map((skill) => {
 			return (
-				<li key={skill} className='flex items-center gap-2'>
-					<FaArrowRight className='text-tertiary' /> {skill}
-				</li>
+				<span key={skill} className='mr-6 text-sm'>
+					{skill}
+				</span>
 			)
 		})
 
 		return (
-			<li key={project[0].id} className='flex flex-col gap-2'>
-				<h4 className='text-xl font-bold text-secondary'>{project[0].title}</h4>
-				<p>{project[0].intro}</p>
-
-				<ul className=''>{skillList}</ul>
-				<p className='text-quaternary font-bold'>{project[0].date}</p>
-				<a href='#' className='text-quinary underline'>
-					Meer informatie (werkt nog niet)
-				</a>
-			</li>
+			<tr key={project[0].id} className='hover:bg-gray-100'>
+				<td className='py-4 px-4 rounded-l-lg text-secondary font-mono'>{project[0].date}</td>
+				<td className='py-4 px-6 font-bold'>{project[0].title}</td>
+				<td className='py-4 px-6 text-gray-600'>{project[0].madeat}</td>
+				<td className='py-4 px-6 text-gray-600'>{skillList}</td>
+				<td className='py-4 px-6 rounded-r-lg'>
+					<FiExternalLink size={24} className='text-gray-600' />
+				</td>
+			</tr>
 		)
 	})
 
 	return (
 		<div className='page-padding-x page-padding-y'>
-			<h2 className='text-2xl font-bold pb-8 text-primary'>Projecten</h2>
-			<ul className='flex flex-col gap-8'>{projectsList}</ul>
+			<h2 className='text-2xl font-bold pb-4 text-primary'>Projecten</h2>
+			<p className='pb-16 text-secondary text-lg'>Dit is een archief van al mijn projecten.</p>
+			<table className='table-auto text-left w-full'>
+				<thead className='text-gray-600 font-bold'>
+					<tr>
+						<th className='py-4 px-4'>Datum</th>
+						<th className='py-4 px-6'>Titel</th>
+						<th className='py-4 px-6'>Gemaakt bij</th>
+						<th className='py-4 px-6'>Gemaakt met</th>
+						<th className='py-4 px-6 text-center'>Link</th>
+					</tr>
+				</thead>
+				<tbody>{projectsList}</tbody>
+			</table>
 		</div>
 	)
 }
