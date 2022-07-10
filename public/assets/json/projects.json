@@ -115,13 +115,55 @@
 		{
 			"id": "9",
 			"title": "JavaScript Stopwatch",
-			"img": "/assets/img/stopwatch.jpg",
+			"img": "/assets/img/javascriptstopwatch.jpg",
 			"intro": "Vanilla JavaScript stopwatch",
 			"description": "description",
 			"github": "https://github.com/duck1s/javascript-stopwatch",
 			"live": "https://duck1s.github.io/javascript-stopwatch/",
 			"skills": ["HTML", "CSS", "JavaScript"],
 			"date": "Mei 2022",
+			"madeat": "-"
+		}
+	],
+	[
+		{
+			"id": "10",
+			"title": "MERN Workout Buddy",
+			"img": "/assets/img/mernworkoutbuddy.jpg",
+			"intro": "MERN Workout Tracking App",
+			"description": "description",
+			"github": "https://github.com/duck1s/mern-workout-buddy",
+			"live": "",
+			"skills": ["MongoDB", "Express.js", "React", "Node.js", "Mongoose"],
+			"date": "Juni 2022",
+			"madeat": "-"
+		}
+	],
+	[
+		{
+			"id": "11",
+			"title": "Laravel Blog",
+			"img": "/assets/img/laravelbreeze.jpg",
+			"intro": "Laravel Blog gemaakt met Breeze",
+			"description": "description",
+			"github": "https://github.com/duck1s/laravel-breeze",
+			"live": "",
+			"skills": ["Laravel", "Breeze", "JavaScript", "Sass", "TailwindCSS"],
+			"date": "Juni 2022",
+			"madeat": "-"
+		}
+	],
+	[
+		{
+			"id": "12",
+			"title": "Python CLI Calculator",
+			"img": "/assets/img/pythoncalculator.jpg",
+			"intro": "Python Calculator in command line",
+			"description": "description",
+			"github": "https://github.com/duck1s/python-cli-calculator",
+			"live": "",
+			"skills": ["Python"],
+			"date": "Maart 2022",
 			"madeat": "-"
 		}
 	]
