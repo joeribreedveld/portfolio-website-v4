@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 				<h3 className='pb-8 font-mont tracking-widest text-tertiary'>HALLO MIJN NAAM IS</h3>
 				<h1 className='text-4xl text-primary md:text-6xl pb-8 font-bold'>Joeri Breedveld</h1>
 				<h3 className='text-lg md:text-xl pb-8 text-secondary'>Full Stack Developer | JavaScript</h3>
-				<p className='pb-16 lg:pb-24 w-3/4 md:w-1/2'>
+				<p className='pb-16 lg:pb-16 w-3/4 md:w-1/2'>
 					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je mij altijd via{" "}
 					<span className='text-secondary'>
 						<Link href='/contact'>
