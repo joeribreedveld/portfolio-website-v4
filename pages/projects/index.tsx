@@ -1,13 +1,16 @@
 // Imports
 import type { NextPage } from "next"
 import { FaArrowRight } from "react-icons/fa"
-import projects from "../public/assets/json/projects.json"
+import projects from "../../public/assets/json/projects.json"
 import { FiExternalLink, FiGithub } from "react-icons/fi"
+import { useRouter } from "next/router"
 
 // Functions
 const Projects: NextPage = () => {
+	const router = useRouter()
+
 	const projectsList = projects.map((project) => {
-		const skillList = project[0].skills.map((skill) => {
+		const skillList = project.skills.map((skill) => {
 			return (
 				<span key={skill} className='text-sm pr-4'>
 					{skill}
@@ -16,14 +19,20 @@ const Projects: NextPage = () => {
 		})
 
 		return (
-			<tr key={project[0].id} className='hover:bg-gray-100'>
-				<td className='py-4 px-2 rounded-l-lg text-secondary font-mono'>{project[0].date}</td>
-				<td className='py-4 px-2 font-bold'>{project[0].title}</td>
-				<td className='py-4 px-2 text-gray-600 hidden md:table-cell'>{project[0].madeat}</td>
+			<tr
+				key={project.id}
+				className='hover:bg-gray-100'
+				onClick={() => {
+					router.push("/projects/" + project.id)
+				}}
+			>
+				<td className='py-4 px-2 rounded-l-lg text-secondary font-mono'>{project.date}</td>
+				<td className='py-4 px-2 font-bold'>{project.title}</td>
+				<td className='py-4 px-2 text-gray-600 hidden md:table-cell'>{project.madeat}</td>
 				<td className='py-4 px-2 text-gray-600 hidden md:table-cell'>{skillList}</td>
 				<td className='py-4 px-2 pr-0'>
-					{project[0].live ? (
-						<a href={project[0].live} target='_blank' rel='noreferrer'>
+					{project.live ? (
+						<a href={project.live} target='_blank' rel='noreferrer'>
 							<FiExternalLink size={24} className='text-gray-600' />
 						</a>
 					) : (
@@ -31,8 +40,8 @@ const Projects: NextPage = () => {
 					)}
 				</td>
 				<td className='py-4 pl-0 px-2 rounded-r-lg'>
-					{project[0].github ? (
-						<a href={project[0].github} target='_blank' rel='noreferrer'>
+					{project.github ? (
+						<a href={project.github} target='_blank' rel='noreferrer'>
 							<FiGithub size={24} className='text-gray-600' />
 						</a>
 					) : (

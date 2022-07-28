@@ -1,170 +1,146 @@
 [
-	[
-		{
-			"id": "1",
-			"title": "joeribreedveld.com",
-			"img": "/assets/img/joeribreedveld.jpg",
-			"intro": "Portfolio website. De website waar je nu naar kijkt.",
-			"description": "description",
-			"github": "https://github.com/duck1s/portfolio-website-v2",
-			"live": "https://joeribreedveld.com",
-			"skills": ["Next.js", "TailwindCSS", "Adobe XD", "TypeScript"],
-			"date": "Juli 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "2",
-			"title": "oorsprongsdocumenten.nl",
-			"img": "/assets/img/oorsprongsdocumenten.jpg",
-			"intro": "MERN ecommerce website met support pagina en admin panel.",
-			"description": "description",
-			"github": "",
-			"live": "https://test.oorsprongsdocumenten.nl",
-			"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
-			"date": "Juni 2022",
-			"madeat": "Oorsprongsdocumenten"
-		}
-	],
-	[
-		{
-			"id": "3",
-			"title": "Task Manager API",
-			"img": "/assets/img/taskmanagerapi.jpg",
-			"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
-			"description": "description",
-			"github": "https://github.com/duck1s/task-manager-api",
-			"live": "",
-			"skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
-			"date": "Juni 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "4",
-			"title": "Museum Online",
-			"img": "/assets/img/museumonline.jpg",
-			"intro": "HTML CSS museum website",
-			"description": "description",
-			"github": "https://github.com/duck1s/f1m2-museum-online",
-			"live": "https://32653.hosts1.ma-cloud.nl/F1M2BO/",
-			"skills": ["HTML", "CSS", "JavaScript"],
-			"date": "Januari 2022",
-			"madeat": "Mediacollege Amsterdam"
-		}
-	],
-	[
-		{
-			"id": "5",
-			"title": "Portfolio Website V1",
-			"img": "/assets/img/portfoliowebsitev1.jpg",
-			"intro": "Mijn aller eerste portfolio website",
-			"description": "description",
-			"github": "https://github.com/duck1s/portfolio-website-v1",
-			"live": "http://32653.hosts1.ma-cloud.nl/JOERI/",
-			"skills": ["HTML", "CSS", "JavaScript"],
-			"date": "April 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "6",
-			"title": "Portfolio Website V2",
-			"img": "/assets/img/portfoliowebsitev2.jpg",
-			"intro": "Mijn aller eerste website met Next.js",
-			"description": "description",
-			"github": "https://github.com/duck1s/portfolio-website-v3",
-			"live": "",
-			"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
-			"date": "Juni 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "7",
-			"title": "Portfolio Website V3",
-			"img": "/assets/img/portfoliowebsitev3.jpg",
-			"intro": "Mijn derde portfolio website",
-			"description": "description",
-			"github": "https://github.com/duck1s/portfolio-website-v3",
-			"live": "https://joeribreedveld.com/",
-			"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
-			"date": "Juni 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "8",
-			"title": "Duurzaam Huis",
-			"img": "/assets/img/duurzaamhuis.jpg",
-			"intro": "Duurzaamheid dashboard website",
-			"description": "description",
-			"github": "https://github.com/duck1s/f2m3-duurzaam-huis",
-			"live": "http://32653.hosts1.ma-cloud.nl/DUURZAAMHUIS/",
-			"skills": ["HTML", "CSS", "JavaScript", "ChartJS"],
-			"date": "April 2022",
-			"madeat": "Mediacollege Amsterdam"
-		}
-	],
-	[
-		{
-			"id": "9",
-			"title": "JavaScript Stopwatch",
-			"img": "/assets/img/javascriptstopwatch.jpg",
-			"intro": "Vanilla JavaScript stopwatch",
-			"description": "description",
-			"github": "https://github.com/duck1s/javascript-stopwatch",
-			"live": "https://duck1s.github.io/javascript-stopwatch/",
-			"skills": ["HTML", "CSS", "JavaScript"],
-			"date": "Mei 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "10",
-			"title": "MERN Workout Buddy",
-			"img": "/assets/img/mernworkoutbuddy.jpg",
-			"intro": "MERN Workout Tracking App",
-			"description": "description",
-			"github": "https://github.com/duck1s/mern-workout-buddy",
-			"live": "",
-			"skills": ["MongoDB", "Express.js", "React", "Node.js", "Mongoose"],
-			"date": "Juni 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "11",
-			"title": "Laravel Blog",
-			"img": "/assets/img/laravelbreeze.jpg",
-			"intro": "Laravel Blog gemaakt met Breeze",
-			"description": "description",
-			"github": "https://github.com/duck1s/laravel-breeze",
-			"live": "",
-			"skills": ["Laravel", "Breeze", "JavaScript", "Sass", "TailwindCSS"],
-			"date": "Juni 2022",
-			"madeat": "-"
-		}
-	],
-	[
-		{
-			"id": "12",
-			"title": "Python CLI Calculator",
-			"img": "/assets/img/pythoncalculator.jpg",
-			"intro": "Python Calculator in command line",
-			"description": "description",
-			"github": "https://github.com/duck1s/python-cli-calculator",
-			"live": "",
-			"skills": ["Python"],
-			"date": "Maart 2022",
-			"madeat": "-"
-		}
-	]
+	{
+		"id": "0",
+		"title": "joeribreedveld.com",
+		"img": "/assets/img/joeribreedveld.jpg",
+		"intro": "Portfolio website. De website waar je nu naar kijkt.",
+		"description": "description",
+		"github": "https://github.com/duck1s/portfolio-website-v2",
+		"live": "https://joeribreedveld.com",
+		"skills": ["Next.js", "TailwindCSS", "Adobe XD", "TypeScript"],
+		"date": "Juli 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "1",
+		"title": "oorsprongsdocumenten.nl",
+		"img": "/assets/img/oorsprongsdocumenten.jpg",
+		"intro": "MERN ecommerce website met support pagina en admin panel.",
+		"description": "description",
+		"github": "",
+		"live": "https://test.oorsprongsdocumenten.nl",
+		"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
+		"date": "Juni 2022",
+		"madeat": "Oorsprongsdocumenten"
+	},
+	{
+		"id": "2",
+		"title": "Task Manager API",
+		"img": "/assets/img/taskmanagerapi.jpg",
+		"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
+		"description": "description",
+		"github": "https://github.com/duck1s/task-manager-api",
+		"live": "",
+		"skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
+		"date": "Juni 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "3",
+		"title": "Museum Online",
+		"img": "/assets/img/museumonline.jpg",
+		"intro": "HTML CSS museum website",
+		"description": "description",
+		"github": "https://github.com/duck1s/f1m2-museum-online",
+		"live": "https://32653.hosts1.ma-cloud.nl/F1M2BO/",
+		"skills": ["HTML", "CSS", "JavaScript"],
+		"date": "Januari 2022",
+		"madeat": "Mediacollege Amsterdam"
+	},
+	{
+		"id": "4",
+		"title": "Portfolio Website V1",
+		"img": "/assets/img/portfoliowebsitev1.jpg",
+		"intro": "Mijn aller eerste portfolio website",
+		"description": "description",
+		"github": "https://github.com/duck1s/portfolio-website-v1",
+		"live": "http://32653.hosts1.ma-cloud.nl/JOERI/",
+		"skills": ["HTML", "CSS", "JavaScript"],
+		"date": "April 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "5",
+		"title": "Portfolio Website V2",
+		"img": "/assets/img/portfoliowebsitev2.jpg",
+		"intro": "Mijn aller eerste website met Next.js",
+		"description": "description",
+		"github": "https://github.com/duck1s/portfolio-website-v3",
+		"live": "",
+		"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
+		"date": "Juni 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "6",
+		"title": "Portfolio Website V3",
+		"img": "/assets/img/portfoliowebsitev3.jpg",
+		"intro": "Mijn derde portfolio website",
+		"description": "description",
+		"github": "https://github.com/duck1s/portfolio-website-v3",
+		"live": "https://joeribreedveld.com/",
+		"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
+		"date": "Juni 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "7",
+		"title": "Duurzaam Huis",
+		"img": "/assets/img/duurzaamhuis.jpg",
+		"intro": "Duurzaamheid dashboard website",
+		"description": "description",
+		"github": "https://github.com/duck1s/f2m3-duurzaam-huis",
+		"live": "http://32653.hosts1.ma-cloud.nl/DUURZAAMHUIS/",
+		"skills": ["HTML", "CSS", "JavaScript", "ChartJS"],
+		"date": "April 2022",
+		"madeat": "Mediacollege Amsterdam"
+	},
+	{
+		"id": "8",
+		"title": "JavaScript Stopwatch",
+		"img": "/assets/img/javascriptstopwatch.jpg",
+		"intro": "Vanilla JavaScript stopwatch",
+		"description": "description",
+		"github": "https://github.com/duck1s/javascript-stopwatch",
+		"live": "https://duck1s.github.io/javascript-stopwatch/",
+		"skills": ["HTML", "CSS", "JavaScript"],
+		"date": "Mei 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "9",
+		"title": "MERN Workout Buddy",
+		"img": "/assets/img/mernworkoutbuddy.jpg",
+		"intro": "MERN Workout Tracking App",
+		"description": "description",
+		"github": "https://github.com/duck1s/mern-workout-buddy",
+		"live": "",
+		"skills": ["MongoDB", "Express.js", "React", "Node.js", "Mongoose"],
+		"date": "Juni 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "10",
+		"title": "Laravel Blog",
+		"img": "/assets/img/laravelbreeze.jpg",
+		"intro": "Laravel Blog gemaakt met Breeze",
+		"description": "description",
+		"github": "https://github.com/duck1s/laravel-breeze",
+		"live": "",
+		"skills": ["Laravel", "Breeze", "JavaScript", "Sass", "TailwindCSS"],
+		"date": "Juni 2022",
+		"madeat": "-"
+	},
+	{
+		"id": "11",
+		"title": "Python CLI Calculator",
+		"img": "/assets/img/pythoncalculator.jpg",
+		"intro": "Python Calculator in command line",
+		"description": "description",
+		"github": "https://github.com/duck1s/python-cli-calculator",
+		"live": "",
+		"skills": ["Python"],
+		"date": "Maart 2022",
+		"madeat": "-"
+	}
 ]
