@@ -14,7 +14,7 @@ export const getStaticPaths = async () => {
 	}
 }
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async (context: any) => {
 	const id = context.params.id
 
 	return {
@@ -22,7 +22,7 @@ export const getStaticProps = async (context) => {
 	}
 }
 
-const Project: NextPage = ({ project }) => {
+const Project: NextPage = ({ project }: any) => {
 	return (
 		<div className='page-padding-x page-padding-y'>
 			<h1 className='font-bold'>{project.title}</h1>
