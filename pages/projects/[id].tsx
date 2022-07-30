@@ -24,6 +24,10 @@ export const getStaticProps = async (context: any) => {
 }
 
 const Project: NextPage = ({ project }: any) => {
+	const skillList = project.skills.map((skill: any) => {
+		return <li className='pb-1 ml-8 list-disc text-gray-500'>{skill}</li>
+	})
+
 	const router = useRouter()
 
 	return (
@@ -31,8 +35,10 @@ const Project: NextPage = ({ project }: any) => {
 			<button onClick={() => router.push("/projects")} className=' text-quaternary underline mb-8'>
 				Ga terug
 			</button>
-			<h1 className='font-bold text-2xl text-primary pb-4'>{project.title}</h1>
-			<p className='text-secondary text-lg pb-8'>{project.intro}</p>
+			<h2 className='font-bold text-2xl text-primary pb-4'>{project.title}</h2>
+			<p className='text-secondary text-lg pb-4'>{project.intro}</p>
+			<h3 className='text-lg text-primary pb-2'>Gemaakt met:</h3>
+			<ul className='pb-8'>{skillList}</ul>
 			<p>{project.description}</p>
 		</div>
 	)
