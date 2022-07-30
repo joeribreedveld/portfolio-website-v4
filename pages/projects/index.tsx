@@ -21,7 +21,7 @@ const Projects: NextPage = () => {
 		return (
 			<tr
 				key={project.id}
-				className='hover:bg-gray-100'
+				className='hover:bg-gray-50'
 				onClick={() => {
 					router.push("/projects/" + project.id)
 				}}
