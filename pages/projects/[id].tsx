@@ -36,6 +36,7 @@ const Project: NextPage = ({ project }: any) => {
 				Ga terug
 			</button>
 			<h2 className='font-bold text-2xl text-primary pb-4'>{project.title}</h2>
+			<p className='pb-4'>{project.date}</p>
 			<p className='text-secondary text-lg pb-4'>{project.intro}</p>
 			<h3 className='text-lg text-primary pb-2'>Gemaakt met:</h3>
 			<ul className='pb-8'>{skillList}</ul>
