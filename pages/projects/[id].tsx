@@ -25,7 +25,11 @@ export const getStaticProps = async (context: any) => {
 
 const Project: NextPage = ({ project }: any) => {
 	const skillList = project.skills.map((skill: any) => {
-		return <li className='pb-1 ml-8 list-disc text-gray-500'>{skill}</li>
+		return (
+			<li key={skill} className='pb-1 ml-8 list-disc text-gray-500'>
+				{skill}
+			</li>
+		)
 	})
 
 	const router = useRouter()
