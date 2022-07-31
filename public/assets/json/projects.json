@@ -78,7 +78,7 @@
 		"intro": "Mijn derde portfolio website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/duck1s/portfolio-website-v3",
-		"live": "https://joeribreedveld.com/",
+		"live": "https://portfolio-website-v3-ivory.vercel.app/",
 		"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
 		"date": "Juni 2022",
 		"madeat": "-"
