@@ -35,7 +35,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/'>
-								<a className={router.pathname == "/" ? "text-tertiary hover:cursor-default" : ""}>Home</a>
+								<a className={router.pathname == "/" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Home</a>
 							</Link>
 						</li>
 						<li
@@ -45,7 +45,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/about'>
-								<a className={router.pathname == "/about" ? "text-tertiary hover:cursor-default" : ""}>Over mij</a>
+								<a className={router.pathname == "/about" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Over mij</a>
 							</Link>
 						</li>
 						<li
@@ -55,7 +55,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/projects'>
-								<a className={router.pathname == "/projects" ? "text-tertiary hover:cursor-default" : ""}>Projecten</a>
+								<a className={router.pathname == "/projects" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Projecten</a>
 							</Link>
 						</li>
 						<li
@@ -65,7 +65,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/contact'>
-								<a className={router.pathname == "/contact" ? "text-tertiary hover:cursor-default" : ""}>Contact</a>
+								<a className={router.pathname == "/contact" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Contact</a>
 							</Link>
 						</li>
 					</ul>
@@ -75,22 +75,22 @@ function Navbar() {
 					<ul className='flex navbar-gap items-center'>
 						<li>
 							<Link href='/'>
-								<a className={router.pathname == "/" ? "text-tertiary hover:cursor-default" : ""}>Home</a>
+								<a className={router.pathname == "/" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Home</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/about'>
-								<a className={router.pathname == "/about" ? "text-tertiary hover:cursor-default" : ""}>Over mij</a>
+								<a className={router.pathname == "/about" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Over mij</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/projects'>
-								<a className={router.pathname == "/projects" ? "text-tertiary hover:cursor-default" : ""}>Projecten</a>
+								<a className={router.pathname == "/projects" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Projecten</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/contact'>
-								<a className={router.pathname == "/contact" ? "text-tertiary hover:cursor-default" : ""}>Contact</a>
+								<a className={router.pathname == "/contact" ? "text-tertiary hover:cursor-default" : "hover:text-secondary"}>Contact</a>
 							</Link>
 						</li>
 					</ul>
