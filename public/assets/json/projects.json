@@ -142,5 +142,17 @@
 		"skills": ["Python"],
 		"date": "Maart 2022",
 		"madeat": "-"
+	},
+	{
+		"id": "12",
+		"title": "NetNinja Ninja List",
+		"img": "/assets/img/ninjalist.jpg",
+		"intro": "Nextjs dynamic routing project from The Net Ninja",
+		"description": "Beschrijving via markdown los bestand",
+		"github": "https://github.com/duck1s/netninja-nextjs",
+		"live": "https://netninja-nextjs-beta.vercel.app/",
+		"skills": ["Next.js"],
+		"date": "Juli 2022",
+		"madeat": "-"
 	}
 ]
