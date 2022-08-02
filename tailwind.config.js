@@ -4,9 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				body: ["sans-serif", "Roboto"],
+				body: ["sans-serif", "-apple-system, BlinkMacSystemFont"],
 				serif: ["serif", "Roboto"],
-				sans: ["sans-serif", "Roboto"],
+				sans: ["sans-serif", "-apple-system, BlinkMacSystemFont"],
 				mono: ["monospace", "Roboto Mono"],
 				mont: ["sans-serif", "Montserrat"],
 			},
