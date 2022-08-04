@@ -10,12 +10,10 @@ const Home: NextPage = () => {
 	const router = useRouter()
 
 	return (
-		<div className='page-padding-x pb-16 pt-16 justify-between h-screen flex gap-32'>
+		<div className='page-padding-x pb-16 pt-16 justify-between h-screen flex gap-32 text-center'>
 			<div className='flex justify-center flex-col'>
-				<h3 className='pb-8 font-mont tracking-widest text-tertiary'>HALLO MIJN NAAM IS</h3>
-				<h1 className='text-4xl text-primary md:text-6xl pb-8 font-bold'>Joeri Breedveld</h1>
-				<h3 className='text-lg md:text-xl pb-8 text-secondary'>Full Stack Developer | JavaScript</h3>
-				<p className='pb-16 lg:pb-16 w-3/4 md:w-1/2'>
+				<h1 className='text-4xl text-primary md:text-5xl pb-8 font-bold'>Joeri Breedveld</h1>
+				<p className='pb-8 w-3/4 self-center text-xl'>
 					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je mij altijd via{" "}
 					<span className='text-secondary'>
 						<Link href='/contact'>
@@ -24,13 +22,10 @@ const Home: NextPage = () => {
 					</span>{" "}
 					contacten.
 				</p>
-				<div className='flex gap-4'>
-					<button onClick={() => router.push("/about")} className='button text-white border-tertiary bg-tertiary hover:text-primary hover:border hover:border-tertiary hover:bg-white'>
-						Over mij
-					</button>
-					<button onClick={() => router.push("/projects")} className='button text-primary border-tertiary hover:text-white hover:bg-tertiary'>
-						Projecten
-					</button>
+				<div className='flex gap-4 justify-center'>
+					<Link href='/about'>
+						<a className='text-xl text-blue underline'>Bekijk mijn projecten</a>
+					</Link>
 				</div>
 			</div>
 		</div>

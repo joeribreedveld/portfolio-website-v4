@@ -17,13 +17,13 @@
     }
 
     .navbar-gap {
-        @apply gap-4 sm:gap-8 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24
+        @apply gap-4 sm:gap-8 md:gap-12 lg:gap-16
     }
 }
 
 @layer components {
     .button {
-        @apply py-3 px-8 md:py-4 rounded-md md:px-12 w-fit font-bold border transition duration-200
+        @apply py-4 px-8 rounded-2xl w-fit transition duration-200
     }
 }
 
