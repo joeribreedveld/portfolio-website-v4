@@ -52,7 +52,7 @@ function Footer() {
 					</ul>
 				</section>
 			</section>
-			<section className='flex justify-between border-t pt-8 border-gray-400 flex-col md:flex-row'>
+			<section className='flex justify-between border-t pt-8 border-slate-400 flex-col md:flex-row'>
 				<p>Made by Joeri Breedveld</p>
 				<p>joeri.breedveld123@gmail.com</p>
 			</section>
