@@ -11,7 +11,7 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className='fixed page-padding-x flex justify-between w-full min-h-12 items-center py-4 flex-col md:flex-row bg-[#F0F0F0CC] backdrop-blur-2xl'>
+			<nav className='fixed page-padding-x flex justify-between w-full min-h-12 items-center py-4 flex-col md:flex-row bg-[#f6f6f6] backdrop-blur-2xl'>
 				<div className='flex justify-between w-full md:w-[unset]'>
 					<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black text-black text-xl'>
 						Joeri Breedveld
