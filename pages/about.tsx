@@ -13,7 +13,7 @@ const About: NextPage = () => {
 					Hallo mijn naam is Joeri Breedveld. Ik ben een Junior Full Stack Developer en ik woon in Amsterdam. Ik programmeer sinds 2021 en ik studeer ook Software Development bij
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
-				<Link href='/about'>
+				<Link href='/projects'>
 					<a className='text-xl text-blue underline'>Bekijk mijn projecten</a>
 				</Link>
 			</section>

@@ -22,11 +22,12 @@ const Home: NextPage = () => {
 					</span>{" "}
 					contacten.
 				</p>
-				<div className='flex gap-4 justify-center'>
-					<Link href='/about'>
+				<div className='flex gap-4 justify-center mb-10'>
+					<Link href='/projects'>
 						<a className='text-xl text-blue underline'>Bekijk mijn projecten</a>
 					</Link>
 				</div>
+				<h1 className='underline text-3xl text-red-500'>Deze website is nog niet af!</h1>
 			</div>
 		</div>
 	)

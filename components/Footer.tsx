@@ -15,7 +15,7 @@ function Footer() {
 							</a>
 						</li>
 						<li>
-							<a className='hover:underline' href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
+							<a className='hover:underline' href='https://github.com/joeribreedveld' target='_blank' rel='noreferrer'>
 								GitHub
 							</a>
 						</li>
