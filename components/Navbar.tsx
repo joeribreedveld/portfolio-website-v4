@@ -11,7 +11,7 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className='fixed page-padding-x flex justify-between w-full py-2 items-center flex-col md:flex-row bg-[#F0F0F0CC] backdrop-blur-2xl'>
+			<nav className='fixed page-padding-x flex justify-between w-full h-12 items-center flex-col md:flex-row bg-[#F0F0F0CC] backdrop-blur-2xl'>
 				<div className='flex justify-between w-full md:w-[unset]'>
 					<h3 onClick={() => router.push("/")} className='hover:cursor-pointer border-black text-black text-xl'>
 						Joeri Breedveld
@@ -35,7 +35,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/'>
-								<a className={router.pathname == "/" ? "text-[#515154] hover:cursor-default" : "hover:text-black"}>Home</a>
+								<a className={router.pathname == "/" ? "text-[#161617] hover:cursor-default" : "hover:text-black"}>Home</a>
 							</Link>
 						</li>
 						<li
@@ -45,7 +45,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/about'>
-								<a className={router.pathname == "/about" ? "text-[#515154] hover:cursor-default" : "hover:text-black"}>Over mij</a>
+								<a className={router.pathname == "/about" ? "text-[#161617] hover:cursor-default" : "hover:text-black"}>Over mij</a>
 							</Link>
 						</li>
 						<li
@@ -55,7 +55,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/projects'>
-								<a className={router.pathname == "/projects" ? "text-[#515154] hover:cursor-default" : "hover:text-black"}>Projecten</a>
+								<a className={router.pathname == "/projects" ? "text-[#161617] hover:cursor-default" : "hover:text-black"}>Projecten</a>
 							</Link>
 						</li>
 						<li
@@ -65,7 +65,7 @@ function Navbar() {
 							className='md:hidden'
 						>
 							<Link href='/contact'>
-								<a className={router.pathname == "/contact" ? "text-[#515154] hover:cursor-default" : "text-[#515154]"}>Contact</a>
+								<a className={router.pathname == "/contact" ? "text-[#161617] hover:cursor-default" : "text-[#161617]"}>Contact</a>
 							</Link>
 						</li>
 					</ul>
@@ -75,23 +75,27 @@ function Navbar() {
 					<ul className='flex navbar-gap items-center'>
 						<li>
 							<Link href='/'>
-								<a className={router.pathname == "/" ? "hover:cursor-default text-slate-500" : "text-[#515154] hover:text-black"}>Home</a>
+								<a className={router.pathname == "/" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Home</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/about'>
-								<a className={router.pathname == "/about" ? "hover:cursor-default text-slate-500" : "text-[#515154] hover:text-black"}>Over mij</a>
+								<a className={router.pathname == "/about" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Over mij</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/projects'>
-								<a className={router.pathname == "/projects" ? "hover:cursor-default text-slate-500" : "text-[#515154] hover:text-black"}>Projecten</a>
+								<a className={router.pathname == "/projects" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Projecten</a>
 							</Link>
 						</li>
 					</ul>
 				</section>
 				<Link href='/contact'>
-					<a className={router.pathname == "/contact" ? "text-slate-500 hover:cursor-default hidden md:block text-sm " : "text-[#515154] hidden md:block text-sm hover:text-black"}>
+					<a
+						className={
+							router.pathname == "/contact" ? "text-[#00000080] hover:cursor-default hidden md:block text-sm hover:text-black" : "text-[#161617] hidden md:block text-sm hover:text-black"
+						}
+					>
 						Contact
 					</a>
 				</Link>
