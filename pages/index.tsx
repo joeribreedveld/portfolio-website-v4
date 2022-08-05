@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 				<h1 className='text-4xl text-primary md:text-5xl pb-8 font-bold'>Joeri Breedveld</h1>
 				<p className='pb-8 md:w-3/4 self-center text-xl'>
 					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je mij altijd via{" "}
-					<span className='text-secondary'>
+					<span className='text-blue'>
 						<Link href='/contact'>
 							<a>hier</a>
 						</Link>

@@ -1,67 +1,38 @@
 // Imports
 import type { NextPage } from "next"
 import { FaArrowRight } from "react-icons/fa"
+import Link from "next/link"
 
 // Functions
 const About: NextPage = () => {
 	return (
-		<div className='page-padding-x page-padding-y flex flex-col gap-16'>
-			<section>
-				<h2 className='text-2xl font-bold pb-4 text-primary'>Over mij</h2>
-				<p className='md:w-2/4'>
+		<div className='page-padding-x page-padding-y flex flex-col gap-48'>
+			<section className='flex justify-center flex-col text-center'>
+				<h2 className='text-5xl font-bold pb-8 text-primary'>Over mij</h2>
+				<p className='text-xl pb-6'>
 					Hallo mijn naam is Joeri Breedveld. Ik ben een Junior Full Stack Developer en ik woon in Amsterdam. Ik programmeer sinds 2021 en ik studeer ook Software Development bij
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
+				<Link href='/about'>
+					<a className='text-xl text-blue underline'>Bekijk mijn projecten</a>
+				</Link>
 			</section>
-			<section>
-				<h2 className='text-2xl font-bold pb-8 text-primary'>Mijn skills</h2>
-				<ul className='flex flex-col gap-2 flex-wrap'>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> HTML
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> CSS
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> JavaScript
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> React
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Sass
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Laravel
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Git
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> MERN
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Adobe XD
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> VSCode
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Node.js
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> Express.js
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> MongoDB
-					</li>
-					<li className='flex items-center gap-2'>
-						<FaArrowRight className='text-secondary' /> MySQL
-					</li>
+			<section className=''>
+				<h2 className='text-4xl font-bold pb-8 text-primary'>Mijn skills</h2>
+				<ul className='grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 gap-6'>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-gray p-8 rounded-xl'>Test</div>
 				</ul>
 			</section>
 			<section>
-				<h2 className='text-2xl font-bold pb-8 text-primary'>Werkervaring</h2>
+				<h2 className='text-4xl font-bold pb-8 text-primary'>Werkervaring</h2>
 				<ul className='flex flex-col gap-8'>
 					<li className='flex flex-col gap-2'>
 						<h4 className='text-xl font-bold text-secondary'>Aruna</h4>
