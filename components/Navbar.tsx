@@ -75,27 +75,23 @@ function Navbar() {
 					<ul className='flex navbar-gap items-center'>
 						<li>
 							<Link href='/'>
-								<a className={router.pathname == "/" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Home</a>
+								<a className={router.pathname == "/" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-[#00000080]"}>Home</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/about'>
-								<a className={router.pathname == "/about" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Over mij</a>
+								<a className={router.pathname == "/about" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-[#00000080]"}>Over mij</a>
 							</Link>
 						</li>
 						<li>
 							<Link href='/projects'>
-								<a className={router.pathname == "/projects" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-black"}>Projecten</a>
+								<a className={router.pathname == "/projects" ? "hover:cursor-default text-[#00000080]" : "text-[#161617] hover:text-[#00000080]"}>Projecten</a>
 							</Link>
 						</li>
 					</ul>
 				</section>
 				<Link href='/contact'>
-					<a
-						className={
-							router.pathname == "/contact" ? "text-[#00000080] hover:cursor-default hidden md:block text-sm hover:text-black" : "text-[#161617] hidden md:block text-sm hover:text-black"
-						}
-					>
+					<a className={router.pathname == "/contact" ? "text-[#00000080] hover:cursor-default hidden md:block text-sm" : "text-[#161617] hidden md:block text-sm hover:text-[#00000080]"}>
 						Contact
 					</a>
 				</Link>

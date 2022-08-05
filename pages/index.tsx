@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 		<div className='page-padding-x pb-16 pt-16 justify-between h-screen flex gap-32 text-center'>
 			<div className='flex justify-center flex-col'>
 				<h1 className='text-4xl text-primary md:text-5xl pb-8 font-bold'>Joeri Breedveld</h1>
-				<p className='pb-8 w-3/4 self-center text-xl'>
+				<p className='pb-8 md:w-3/4 self-center text-xl'>
 					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je mij altijd via{" "}
 					<span className='text-secondary'>
 						<Link href='/contact'>
