@@ -1,4 +1,4 @@
-import projects from "../../public/assets/json/projects.json"
+import projects from "../../public/json/projects.json"
 import type { NextPage } from "next"
 import { useRouter } from "next/router"
 import { FiExternalLink, FiGithub } from "react-icons/fi"

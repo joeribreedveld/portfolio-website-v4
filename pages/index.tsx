@@ -14,20 +14,13 @@ const Home: NextPage = () => {
 			<div className='flex justify-center flex-col'>
 				<h1 className='text-4xl text-primary md:text-5xl pb-8 font-bold'>Joeri Breedveld</h1>
 				<p className='pb-8 md:w-3/4 self-center text-xl'>
-					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je mij altijd via{" "}
-					<span className='text-blue'>
-						<Link href='/contact'>
-							<a>hier</a>
-						</Link>
-					</span>{" "}
-					contacten.
+					Welkom bij mijn portfolio website! Op deze website kan je informatie vinden over wie ik ben, wat ik doe en wat ik kan. Voor meer informatie of vragen kan je me altijd contacten.
 				</p>
 				<div className='flex gap-4 justify-center mb-10'>
 					<Link href='/projects'>
 						<a className='text-xl text-blue underline'>Bekijk mijn projecten</a>
 					</Link>
 				</div>
-				<h1 className='underline text-3xl text-red-500'>Deze website is nog niet af!</h1>
 			</div>
 		</div>
 	)

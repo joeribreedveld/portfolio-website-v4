@@ -1,7 +1,7 @@
 // Imports
 import type { NextPage } from "next"
 import { FaArrowRight } from "react-icons/fa"
-import projects from "../../public/assets/json/projects.json"
+import projects from "../../public/json/projects.json"
 import { FiExternalLink, FiGithub } from "react-icons/fi"
 import { useRouter } from "next/router"
 
