@@ -20,15 +20,15 @@ const About: NextPage = () => {
 			<section className=''>
 				<h2 className='text-4xl font-bold pb-8 text-primary'>Mijn skills</h2>
 				<ul className='grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 gap-6'>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
-					<div className='bg-gray p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
+					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
 				</ul>
 			</section>
 		</div>
