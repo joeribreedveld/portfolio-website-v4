@@ -15,7 +15,7 @@ const Contact: NextPage = () => {
 					</a>
 				</li>
 				<li className='flex items-center gap-2 text-blue underline text-xl'>
-					<a href='https://github.com/duck1s' target='_blank' rel='noreferrer'>
+					<a href='https://github.com/joeribreedveld' target='_blank' rel='noreferrer'>
 						GitHub
 					</a>
 				</li>
