@@ -31,6 +31,7 @@ const About: NextPage = () => {
 					<div className='bg-[#f8f8f8] p-8 rounded-xl'>Test</div>
 				</ul>
 			</section>
+			<p className='text-red-500 text-center'>In onderhoud</p>
 		</div>
 	)
 }
