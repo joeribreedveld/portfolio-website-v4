@@ -9,7 +9,7 @@ import { useRouter } from "next/router"
 const Projects: NextPage = () => {
 	return (
 		<div className='page-padding-x page-padding-y text-center'>
-			<h2 className='text-4xl font-bold pb-4 text-primary'>Projecten</h2>
+			<h2 className='text-4xl font-bold pb-8 text-primary'>Projecten</h2>
 			<p className='mb-24 text-secondary text-xl'>Dit zijn al mijn projecten. Klik op een project voor meer informatie.</p>
 			<p className='text-red-500'>In onderhoud</p>
 		</div>
