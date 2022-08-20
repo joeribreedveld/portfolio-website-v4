@@ -6,7 +6,11 @@ import Link from "next/link"
 // Functions
 const About: NextPage = () => {
 	const skillList = skills.map((skill) => {
-		return <div className='shadow-md bg-[#f8f8f8] p-8 rounded-lg'>{skill.name}</div>
+		return (
+			<div key={skill.id} className='shadow-md bg-[#f8f8f8] p-8 rounded-lg'>
+				{skill.name}
+			</div>
+		)
 	})
 
 	return (
@@ -23,7 +27,7 @@ const About: NextPage = () => {
 			</section>
 			<section className=''>
 				<h2 className='text-4xl font-bold pb-8 text-primary text-center'>Mijn skills</h2>
-				<ul className='grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 gap-8'>{skillList}</ul>
+				<ul className='grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-9 gap-4 md:gap-8'>{skillList}</ul>
 			</section>
 		</div>
 	)
