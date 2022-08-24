@@ -35,7 +35,7 @@ function Layout({ children }: LayoutProps) {
 				<Navbar />
 			</header>
 			<main className='min-h-screen'>{children}</main>
-			<footer className='page-padding-x py-10 bg-[#f6f6f6] text-sm'>
+			<footer className='bg-black py-3 page-padding-x text-white'>
 				<Footer />
 			</footer>
 		</>

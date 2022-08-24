@@ -13,7 +13,7 @@
     }
 
     .page-padding-y {
-        @apply pb-32 pt-44
+        @apply py-16
     }
 
     .navbar-gap {

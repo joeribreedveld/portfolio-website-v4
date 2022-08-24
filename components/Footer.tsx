@@ -5,9 +5,7 @@ import Link from "next/link"
 function Footer() {
 	return (
 		<>
-			<section className='flex justify-center text-center flex-col md:flex-row'>
-				<p>Gemaakt door Joeri Breedveld</p>
-			</section>
+			<p>Footer</p>
 		</>
 	)
 }
