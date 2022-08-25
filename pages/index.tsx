@@ -2,6 +2,7 @@
 import type { NextPage } from "next"
 import About from "../categories/About"
 import Hero from "../categories/Hero"
+import Skills from "../categories/Skills"
 
 // Functions
 const Home: NextPage = () => {
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
 		<>
 			<Hero />
 			<About />
+			<Skills />
 		</>
 	)
 }
