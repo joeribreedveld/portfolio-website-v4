@@ -13,7 +13,7 @@
     }
 
     .page-padding-y {
-        @apply py-16
+        @apply pb-32 pt-32
     }
 
     .navbar-gap {
@@ -26,7 +26,6 @@
         @apply py-4 px-8 rounded-2xl w-fit transition duration-200
     }
 }
-
 
 /* Apply */
 html {

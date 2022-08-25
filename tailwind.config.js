@@ -1,14 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+	content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./categories/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
 			fontFamily: {
-				body: ["sans-serif", "-apple-system, BlinkMacSystemFont"],
+				body: ["sans-serif", "Roboto"],
 				serif: ["serif", "Roboto"],
-				sans: ["sans-serif", "-apple-system, BlinkMacSystemFont"],
+				sans: ["sans-serif", "Roboto"],
 				mono: ["monospace", "Roboto Mono"],
-				mont: ["sans-serif", "Montserrat"],
 			},
 			colors: {
 				black: "#1D1D1F",

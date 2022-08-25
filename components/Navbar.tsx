@@ -12,7 +12,7 @@ function Navbar() {
 	return (
 		<>
 			<nav className='bg-black text-white fixed w-screen page-padding-x py-3'>
-				<p>test</p>
+				<p className=''>test</p>
 			</nav>
 		</>
 	)
