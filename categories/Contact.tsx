@@ -6,7 +6,24 @@ function Contact() {
 		<>
 			<section className='page-padding-x page-padding-y'>
 				<h2 className='font-bold text-2xl mb-4'>Contact</h2>
-				<p>Contact informatie en links</p>
+				<p className='mb-6'>Contact mij voor meer informatie of vragen.</p>
+				<ul>
+					<li className='mb-4'>
+						<a className='text-primary underline hover:text-secondary' href='https://github.com/joeribreedveld' target='_blank'>
+							GitHub
+						</a>
+					</li>
+					<li className='mb-4'>
+						<a className='text-primary underline hover:text-secondary' href='mailto:joeri.breedveld123@gmail.com' target='_blank'>
+							Email
+						</a>
+					</li>
+					<li className='mb-4'>
+						<a className='text-primary underline hover:text-secondary' href='https://www.linkedin.com/in/joeribreedveld/' target='_blank'>
+							LinkedIn
+						</a>
+					</li>
+				</ul>
 			</section>
 		</>
 	)
