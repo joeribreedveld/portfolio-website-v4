@@ -11,8 +11,28 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className='bg-black text-white fixed w-screen page-padding-x py-3'>
-				<p className=''>test</p>
+			<nav className='bg-black text-white fixed w-screen page-padding-x py-4 flex justify-between items-center'>
+				<img className='h-8' src='/img/jb-logo-white.png' alt='' />
+				<ul className='flex gap-12'>
+					<li>
+						<a href='#'>Home</a>
+					</li>
+					<li>
+						<a href='#'>Over mij</a>
+					</li>
+					<li>
+						<a href='#'>Skills</a>
+					</li>
+					<li>
+						<a href='#'>Projecten </a>
+					</li>
+					<li>
+						<a href='#'>Werkervaring</a>
+					</li>
+					<li>
+						<a href='#'>Contact</a>
+					</li>
+				</ul>
 			</nav>
 		</>
 	)

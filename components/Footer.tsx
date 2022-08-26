@@ -5,7 +5,7 @@ import Link from "next/link"
 function Footer() {
 	return (
 		<>
-			<p>Footer</p>
+			<img className='h-8' src='/img/jb-logo-white.png' alt='' />
 		</>
 	)
 }
