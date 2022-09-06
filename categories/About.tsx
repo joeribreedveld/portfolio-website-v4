@@ -1,4 +1,5 @@
 // Imports
+import { Link, animateScroll as scroll } from "react-scroll"
 
 // Functions
 function About() {
@@ -10,7 +11,9 @@ function About() {
 					Hallo mijn naam is Joeri Breedveld. Ik ben een Junior Full Stack Developer en ik woon in Amsterdam. Ik programmeer sinds 2021 en ik studeer ook Software Development bij
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
-				<p className='text-primary underline'>Bekijk mijn projecten</p>
+				<Link to='projects' spy={true} smooth={true} offset={-70} duration={500}>
+					<a className='text-primary underline hover:cursor-pointer'>Bekijk mijn projecten</a>
+				</Link>
 			</section>
 		</>
 	)

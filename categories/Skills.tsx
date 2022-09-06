@@ -18,7 +18,9 @@ function Skills() {
 			<section className='page-padding-x page-padding-y bg-gray' id='skills'>
 				<h2 className='font-bold text-2xl mb-8'>Mijn skills</h2>
 				<ul className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mb-8'>{skillList}</ul>
-				<p className='text-primary underline'>Check mijn GitHub</p>
+				<a href='https://www.linkedin.com/in/joeribreedveld/' target='_blank' className='text-primary underline hover:text-secondary'>
+					Check mijn GitHub
+				</a>
 			</section>
 		</>
 	)

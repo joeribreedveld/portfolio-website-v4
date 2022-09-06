@@ -12,13 +12,19 @@ function Hero() {
 				<h3 className='text-xl mb-16'>Full Stack Developer</h3>
 				<ul className='flex gap-12'>
 					<li>
-						<FiGithub size={24} />
+						<a href='https://github.com/joeribreedveld' target='_blank'>
+							<FiGithub size={24} />
+						</a>
 					</li>
 					<li>
-						<FiMail size={24} />
+						<a href='mailto:joeri.breedveld123@gmail.com' target='_blank'>
+							<FiMail size={24} />
+						</a>
 					</li>
 					<li>
-						<AiFillLinkedin size={24} />
+						<a href='https://www.linkedin.com/in/joeribreedveld/' target='_blank'>
+							<AiFillLinkedin size={24} />
+						</a>
 					</li>
 				</ul>
 			</section>
