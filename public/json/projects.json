@@ -2,7 +2,7 @@
 	{
 		"id": "0",
 		"title": "joeribreedveld.com",
-		"img": "/img/projects/joeribreedveld.jpg",
+		"img": "/img/projects/joeribreedveld.png",
 		"intro": "Portfolio website. De website waar je nu naar kijkt.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v2",
@@ -14,7 +14,7 @@
 	{
 		"id": "1",
 		"title": "oorsprongsdocumenten.nl",
-		"img": "/img/projects/oorsprongsdocumenten.jpg",
+		"img": "/img/projects/oorsprongsdocumenten.png",
 		"intro": "MERN ecommerce website met support pagina en admin panel.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "",
@@ -26,7 +26,7 @@
 	{
 		"id": "2",
 		"title": "Task Manager API",
-		"img": "/img/projects/taskmanagerapi.jpg",
+		"img": "/img/projects/taskmanager.jpg",
 		"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/task-manager-api",
@@ -50,7 +50,7 @@
 	{
 		"id": "4",
 		"title": "Portfolio Website V1",
-		"img": "/img/projects/portfoliowebsitev1.jpg",
+		"img": "/img/projects/portfolio1.jpg",
 		"intro": "Mijn aller eerste portfolio website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v1",
@@ -62,7 +62,7 @@
 	{
 		"id": "5",
 		"title": "Portfolio Website V2",
-		"img": "/img/projects/portfoliowebsitev2.jpg",
+		"img": "/img/projects/portfolio2.jpg",
 		"intro": "Mijn aller eerste website met Next.js",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v3",
@@ -74,7 +74,7 @@
 	{
 		"id": "6",
 		"title": "Portfolio Website V3",
-		"img": "/img/projects/portfoliowebsitev3.jpg",
+		"img": "/img/projects/portfolio3.png",
 		"intro": "Mijn derde portfolio website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v3",
@@ -110,7 +110,7 @@
 	{
 		"id": "9",
 		"title": "MERN Workout Buddy",
-		"img": "/img/projects/mernworkoutbuddy.jpg",
+		"img": "/img/projects/workoutbuddy.jpg",
 		"intro": "MERN Workout Tracking App",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/mern-workout-buddy",
@@ -122,7 +122,7 @@
 	{
 		"id": "10",
 		"title": "Laravel Blog",
-		"img": "/img/projects/laravelbreeze.jpg",
+		"img": "/img/projects/laravelblog.png",
 		"intro": "Laravel Blog gemaakt met Breeze",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/laravel-breeze",
@@ -134,7 +134,7 @@
 	{
 		"id": "11",
 		"title": "Python CLI Calculator",
-		"img": "/img/projects/pythoncalculator.jpg",
+		"img": "/img/projects/pythoncalculator.png",
 		"intro": "Python Calculator in command line",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/python-cli-calculator",
@@ -146,7 +146,7 @@
 	{
 		"id": "12",
 		"title": "NetNinja Ninja List",
-		"img": "/img/projects/ninjalist.jpg",
+		"img": "/img/projects/ninjalist.png",
 		"intro": "Nextjs dynamic routing project from The Net Ninja",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/netninja-nextjs",
