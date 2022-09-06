@@ -6,7 +6,9 @@ function Skills() {
 	const skillList = skills.map((skill) => {
 		return (
 			<>
-				<li className='bg-white rounded p-8'>{skill.name}</li>
+				<li key={skill.id} className='bg-white rounded p-8'>
+					{skill.name}
+				</li>
 			</>
 		)
 	})
