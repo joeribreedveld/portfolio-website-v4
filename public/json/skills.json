@@ -2,66 +2,66 @@
 	{
 		"id": "1",
 		"name": "HTML",
-		"img": "/img/html.png"
+		"img": "/img/skills/html.png"
 	},
 	{
 		"id": "2",
 		"name": "CSS",
-		"img": "/img/css.png"
+		"img": "/img/skills/css.png"
 	},
 	{
 		"id": "3",
 		"name": "JavaScript",
-		"img": "/img/javascript.png"
+		"img": "/img/skills/javascript.png"
 	},
 	{
 		"id": "4",
 		"name": "React",
-		"img": "/img/react.png"
+		"img": "/img/skills/react.png"
 	},
 	{
 		"id": "5",
 		"name": "Sass",
-		"img": "/img/sass.png"
+		"img": "/img/skills/sass.png"
 	},
 	{
 		"id": "6",
 		"name": "Laravel",
-		"img": "/img/laravel.png"
+		"img": "/img/skills/laravel.png"
 	},
 	{
 		"id": "7",
 		"name": "Git",
-		"img": "/img/git.png"
+		"img": "/img/skills/git.png"
 	},
 	{
 		"id": "8",
 		"name": "MERN",
-		"img": "/img/mern.png"
+		"img": "/img/skills/mern.png"
 	},
 	{
 		"id": "9",
 		"name": "Adobe XD",
-		"img": "/img/adobexd.png"
+		"img": "/img/skills/adobexd.png"
 	},
 	{
 		"id": "10",
 		"name": "VSCode",
-		"img": "/img/vscode.png"
+		"img": "/img/skills/vscode.png"
 	},
 	{
 		"id": "11",
 		"name": "Node.js",
-		"img": "/img/node.png"
+		"img": "/img/skills/node.png"
 	},
 	{
 		"id": "12",
 		"name": "Express.js",
-		"img": "/img/express.png"
+		"img": "/img/skills/express.png"
 	},
 	{
 		"id": "13",
 		"name": "MongoDB",
-		"img": "/img/mongodb.png"
+		"img": "/img/skills/mongodb.png"
 	}
 ]

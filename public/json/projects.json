@@ -2,7 +2,7 @@
 	{
 		"id": "0",
 		"title": "joeribreedveld.com",
-		"img": "/assets/img/joeribreedveld.jpg",
+		"img": "/img/projects/joeribreedveld.jpg",
 		"intro": "Portfolio website. De website waar je nu naar kijkt.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v2",
@@ -14,7 +14,7 @@
 	{
 		"id": "1",
 		"title": "oorsprongsdocumenten.nl",
-		"img": "/assets/img/oorsprongsdocumenten.jpg",
+		"img": "/img/projects/oorsprongsdocumenten.jpg",
 		"intro": "MERN ecommerce website met support pagina en admin panel.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "",
@@ -26,7 +26,7 @@
 	{
 		"id": "2",
 		"title": "Task Manager API",
-		"img": "/assets/img/taskmanagerapi.jpg",
+		"img": "/img/projects/taskmanagerapi.jpg",
 		"intro": "CRUD Restful API herbruikbaar voor andere projecten met CRUD.",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/task-manager-api",
@@ -38,7 +38,7 @@
 	{
 		"id": "3",
 		"title": "Museum Online",
-		"img": "/assets/img/museumonline.jpg",
+		"img": "/img/projects/museumonline.jpg",
 		"intro": "HTML CSS museum website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/f1m2-museum-online",
@@ -50,7 +50,7 @@
 	{
 		"id": "4",
 		"title": "Portfolio Website V1",
-		"img": "/assets/img/portfoliowebsitev1.jpg",
+		"img": "/img/projects/portfoliowebsitev1.jpg",
 		"intro": "Mijn aller eerste portfolio website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v1",
@@ -62,7 +62,7 @@
 	{
 		"id": "5",
 		"title": "Portfolio Website V2",
-		"img": "/assets/img/portfoliowebsitev2.jpg",
+		"img": "/img/projects/portfoliowebsitev2.jpg",
 		"intro": "Mijn aller eerste website met Next.js",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v3",
@@ -74,7 +74,7 @@
 	{
 		"id": "6",
 		"title": "Portfolio Website V3",
-		"img": "/assets/img/portfoliowebsitev3.jpg",
+		"img": "/img/projects/portfoliowebsitev3.jpg",
 		"intro": "Mijn derde portfolio website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v3",
@@ -86,7 +86,7 @@
 	{
 		"id": "7",
 		"title": "Duurzaam Huis",
-		"img": "/assets/img/duurzaamhuis.jpg",
+		"img": "/img/projects/duurzaamhuis.jpg",
 		"intro": "Duurzaamheid dashboard website",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/f2m3-duurzaam-huis",
@@ -98,7 +98,7 @@
 	{
 		"id": "8",
 		"title": "JavaScript Stopwatch",
-		"img": "/assets/img/javascriptstopwatch.jpg",
+		"img": "/img/projects/javascriptstopwatch.jpg",
 		"intro": "Vanilla JavaScript stopwatch",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/javascript-stopwatch",
@@ -110,7 +110,7 @@
 	{
 		"id": "9",
 		"title": "MERN Workout Buddy",
-		"img": "/assets/img/mernworkoutbuddy.jpg",
+		"img": "/img/projects/mernworkoutbuddy.jpg",
 		"intro": "MERN Workout Tracking App",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/mern-workout-buddy",
@@ -122,7 +122,7 @@
 	{
 		"id": "10",
 		"title": "Laravel Blog",
-		"img": "/assets/img/laravelbreeze.jpg",
+		"img": "/img/projects/laravelbreeze.jpg",
 		"intro": "Laravel Blog gemaakt met Breeze",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/laravel-breeze",
@@ -134,7 +134,7 @@
 	{
 		"id": "11",
 		"title": "Python CLI Calculator",
-		"img": "/assets/img/pythoncalculator.jpg",
+		"img": "/img/projects/pythoncalculator.jpg",
 		"intro": "Python Calculator in command line",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/python-cli-calculator",
@@ -146,7 +146,7 @@
 	{
 		"id": "12",
 		"title": "NetNinja Ninja List",
-		"img": "/assets/img/ninjalist.jpg",
+		"img": "/img/projects/ninjalist.jpg",
 		"intro": "Nextjs dynamic routing project from The Net Ninja",
 		"description": "Beschrijving via markdown los bestand",
 		"github": "https://github.com/joeribreedveld/netninja-nextjs",
