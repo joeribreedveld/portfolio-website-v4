@@ -13,7 +13,7 @@ function Navbar() {
 		<>
 			<nav className='bg-black text-white fixed w-screen page-padding-x py-4 flex justify-between items-center'>
 				{/* Navbar */}
-				<div className='hidden xl:block xl:flex justify-between w-full items-center'>
+				<div className='hidden xl:flex justify-between w-full items-center'>
 					<img className='h-8' src='/img/jb-logo-white.png' alt='' />
 					<ul className='flex gap-12'>
 						<li>
