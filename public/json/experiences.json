@@ -2,14 +2,14 @@
 	{
 		"id": "1",
 		"name": "Aruna",
-		"description": "Website about underwater remotely operated vehicle made with WordPress.",
+		"intro": "Website about underwater remotely operated vehicle made with WordPress.",
 		"time": "May 2022 - Now",
 		"img": "/img/experience/aruna.jpg"
 	},
 	{
 		"id": "2",
 		"name": "Oorsprongsdocumenten.nl",
-		"description": "Ecommerce website about documents of origin. Made with Next.js and Node.js.",
+		"intro": "Ecommerce website about documents of origin. Made with Next.js and Node.js.",
 		"time": "June 2022 - Now",
 		"img": "/img/experience/osd.jpg"
 	}
