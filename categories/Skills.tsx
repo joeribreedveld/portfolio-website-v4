@@ -15,7 +15,7 @@ function Skills() {
 
 	return (
 		<>
-			<section className='page-padding-x page-padding-y bg-gray'>
+			<section className='page-padding-x page-padding-y bg-gray' id='skills'>
 				<h2 className='font-bold text-2xl mb-8'>Mijn skills</h2>
 				<ul className='grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mb-8'>{skillList}</ul>
 				<p className='text-primary underline'>Check mijn GitHub</p>

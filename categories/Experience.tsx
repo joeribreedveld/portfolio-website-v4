@@ -20,7 +20,7 @@ function Experience() {
 
 	return (
 		<>
-			<section className='page-padding-x page-padding-y bg-gray'>
+			<section className='page-padding-x page-padding-y bg-gray' id='experience'>
 				<h2 className='font-bold text-2xl mb-8'>Mijn werkervaring</h2>
 				<ul className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8'>{experienceList}</ul>
 			</section>
