@@ -4,7 +4,7 @@
 function Contact() {
 	return (
 		<>
-			<section className='page-padding-x page-padding-y'>
+			<section className='page-padding-x page-padding-y bg-white'>
 				<h2 className='font-bold text-2xl mb-4'>Contact</h2>
 				<p className='mb-6'>Contact mij voor meer informatie of vragen.</p>
 				<ul>
