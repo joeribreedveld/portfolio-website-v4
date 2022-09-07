@@ -7,7 +7,7 @@ function Projects() {
 		return (
 			<>
 				<li key={project.id}>
-					<img src={project.img} alt='Project image' className='object-cover h-48 w-full rounded-xl mb-4' />
+					<img src={project.img} alt='Project image' className='object-cover h-48 w-full rounded-xl mb-4 shadow-lg' />
 					<h3 className='text-xl font-bold mb-4'>{project.title}</h3>
 					<p className='mb-4'>{project.intro}</p>
 					<a href='#' className='text-primary underline hover:text-secondary'>
