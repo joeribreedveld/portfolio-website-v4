@@ -4,9 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				body: ["sans-serif", "Roboto"],
-				serif: ["serif", "Roboto"],
-				sans: ["sans-serif", "Roboto"],
+				body: ["sans-serif", "Open Sans"],
+				serif: ["serif", "Open Sans"],
+				sans: ["sans-serif", "Open Sans"],
 				mono: ["monospace", "Roboto Mono"],
 			},
 			colors: {
