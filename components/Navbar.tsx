@@ -16,32 +16,32 @@ function Navbar() {
 				<div className='hidden xl:flex justify-between w-full items-center'>
 					<img onClick={() => router.push("/")} className='h-8 hover:cursor-pointer' src='/img/jb-logo-white.png' alt='Logo' />
 					<ul className='flex gap-12'>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Home</p>
 							</Link>
 						</li>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='about' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Over mij</p>
 							</Link>
 						</li>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Skills</p>
 							</Link>
 						</li>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Projecten</p>
 							</Link>
 						</li>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Werkervaring</p>
 							</Link>
 						</li>
-						<li className='hover:cursor-pointer hover:text-slate-300'>
+						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Contact</p>
 							</Link>
