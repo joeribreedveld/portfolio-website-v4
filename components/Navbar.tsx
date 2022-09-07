@@ -18,32 +18,32 @@ function Navbar() {
 					<ul className='flex gap-12'>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Home</a>
+								<p>Home</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='about' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Over mij</a>
+								<p>Over mij</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Skills</a>
+								<p>Skills</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Projecten</a>
+								<p>Projecten</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Werkervaring</a>
+								<p>Werkervaring</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer hover:text-slate-300'>
 							<Link activeClass='text-slate-400' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
-								<a>Contact</a>
+								<p>Contact</p>
 							</Link>
 						</li>
 					</ul>
@@ -68,32 +68,32 @@ function Navbar() {
 					<ul className={open ? "flex flex-col py-4 mt-4 w-full" : "hidden"}>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Home</a>
+								<p className='w-full h-full'>Home</p>
 							</li>
 						</Link>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='about' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Over mij</a>
+								<p className='w-full h-full'>Over mij</p>
 							</li>
 						</Link>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Skills</a>
+								<p className='w-full h-full'>Skills</p>
 							</li>
 						</Link>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Projecten</a>
+								<p className='w-full h-full'>Projecten</p>
 							</li>
 						</Link>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Werkervaring</a>
+								<p className='w-full h-full'>Werkervaring</p>
 							</li>
 						</Link>
 						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
-								<a className='w-full h-full'>Contact</a>
+								<p className='w-full h-full'>Contact</p>
 							</li>
 						</Link>
 					</ul>

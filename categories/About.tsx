@@ -12,7 +12,7 @@ function About() {
 					Mediacollege Amsterdam. Ik vind het heel leuk om nieuwe dingen te leren en uitdagingen aan te gaan.
 				</p>
 				<Link to='projects' spy={true} smooth={true} offset={-70} duration={500}>
-					<a className='text-primary underline hover:cursor-pointer'>Bekijk mijn projecten</a>
+					<p className='text-primary underline hover:cursor-pointer'>Bekijk mijn projecten</p>
 				</Link>
 			</section>
 		</>
