@@ -7,7 +7,7 @@ function Skills() {
 		return (
 			<>
 				<li key={skill.id} className='bg-white rounded p-8 items-center flex flex-col justify-center text-center'>
-					<img src={skill.img} alt='Skill image icon' className='h-12 mb-4' />
+					<img src={skill.img} alt='Skill image icon' className='h-12 mb-4 object-fill' />
 					<p>{skill.name}</p>
 				</li>
 			</>
