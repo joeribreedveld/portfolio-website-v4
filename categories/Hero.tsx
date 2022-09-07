@@ -13,17 +13,17 @@ function Hero() {
 				<ul className='flex gap-12'>
 					<li>
 						<a href='https://github.com/joeribreedveld' target='_blank'>
-							<FiGithub size={24} />
+							<FiGithub size={24} className='hover:text-primary transition ease-in-out duration-200' />
 						</a>
 					</li>
 					<li>
 						<a href='mailto:joeri.breedveld123@gmail.com' target='_blank'>
-							<FiMail size={24} />
+							<FiMail size={24} className='hover:text-primary transition ease-in-out duration-200' />
 						</a>
 					</li>
 					<li>
 						<a href='https://www.linkedin.com/in/joeribreedveld/' target='_blank'>
-							<AiFillLinkedin size={24} />
+							<AiFillLinkedin size={24} className='hover:text-primary transition ease-in-out duration-200' />
 						</a>
 					</li>
 				</ul>
