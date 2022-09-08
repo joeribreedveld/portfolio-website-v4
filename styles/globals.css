@@ -9,7 +9,7 @@
 /* Layer */
 @layer utilities {
     .page-padding-x {
-        @apply px-[5%] md:px-[15%] lg:px-[20%] xl:px-[20%]
+        @apply px-[5%] md:px-[10%] lg:px-[12.5%] xl:px-[15%]
     }
 
     .page-padding-y {

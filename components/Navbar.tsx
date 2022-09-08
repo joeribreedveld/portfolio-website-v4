@@ -13,7 +13,7 @@ function Navbar() {
 		<>
 			<nav className='bg-black text-white fixed w-screen page-padding-x py-4 flex justify-between items-center'>
 				{/* Navbar */}
-				<div className='hidden xl:flex justify-between w-full items-center'>
+				<div className='hidden lg:flex justify-between w-full items-center'>
 					<img onClick={() => router.push("/")} className='h-8 hover:cursor-pointer' src='/img/jb-logo-white.png' alt='Logo' />
 					<ul className='flex gap-12'>
 						<li className='hover:cursor-pointer'>
@@ -49,7 +49,7 @@ function Navbar() {
 					</ul>
 				</div>
 				{/* Mobile Navbar */}
-				<div className='xl:hidden w-full'>
+				<div className='lg:hidden w-full'>
 					<div className='flex w-full justify-between'>
 						<img
 							onClick={() => {
