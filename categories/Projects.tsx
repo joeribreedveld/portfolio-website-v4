@@ -22,7 +22,7 @@ function Projects() {
 		<>
 			<section className='page-padding-x page-padding-y bg-white' id='projects'>
 				<h2 className='font-bold text-2xl mb-8'>Mijn projecten</h2>
-				<ul className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-16'>{projectList}</ul>
+				<ul className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-16'>{projectList}</ul>
 			</section>
 		</>
 	)
