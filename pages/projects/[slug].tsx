@@ -29,7 +29,7 @@ export async function getStaticPaths() {
 }
 
 // getStaticProps
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps = async ({ params }: any) => {
 	const project = projects.filter((project) => project.slug === params.slug)
 
 	return {
