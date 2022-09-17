@@ -10,6 +10,7 @@ const Project: NextPage = ({ project }: any) => {
 		<>
 			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>
 				<p>{project.title}</p>
+				<p>{project.description}</p>
 			</div>
 		</>
 	)

@@ -10,7 +10,7 @@ function Projects() {
 					<img src={project.img} alt='Project image' className='object-cover h-48 w-full rounded-lg mb-4 shadow-lg' />
 					<h3 className='text-xl font-bold mb-4'>{project.title}</h3>
 					<p className='mb-4'>{project.intro}</p>
-					<a href='#' className='text-primary underline hover:text-secondary'>
+					<a href={"https://joeribreedveld.com/projects/" + project.slug} className='text-primary underline hover:text-secondary'>
 						Meer informatie
 					</a>
 				</li>
