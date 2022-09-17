@@ -5,9 +5,12 @@ import { useRouter } from "next/router"
 
 // Functions
 const Project: NextPage = ({ project }: any) => {
+	console.log(project)
 	return (
 		<>
-			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>{project.title}</div>
+			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>
+				<p>{project.title}</p>
+			</div>
 		</>
 	)
 }
@@ -25,18 +28,12 @@ export async function getStaticPaths() {
 }
 
 // getStaticProps
-export const getStaticProps: GetStaticProps = async (context) => {
-	const params = context.params
-
-	const project = await projects.map((project) => {
-		if (project.slug === params.slug) {
-			return project
-		}
-	})
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+	const project = projects.filter((project) => project.slug === params.slug)
 
 	return {
 		props: {
-			project,
+			project: project[0],
 		},
 	}
 }
