@@ -9,17 +9,17 @@ function Contact() {
 				<p className='mb-6'>Contact mij voor meer informatie of vragen.</p>
 				<ul>
 					<li className='mb-4'>
-						<a className='text-primary underline hover:text-secondary' href='https://github.com/joeribreedveld' target='_blank'>
+						<a className='text-primary underline hover:text-secondary' href='https://github.com/joeribreedveld' target='_blank' rel='noreferrer'>
 							GitHub
 						</a>
 					</li>
 					<li className='mb-4'>
-						<a className='text-primary underline hover:text-secondary' href='mailto:joeri.breedveld123@gmail.com' target='_blank'>
+						<a className='text-primary underline hover:text-secondary' href='mailto:joeri.breedveld123@gmail.com' target='_blank' rel='noreferrer'>
 							Email
 						</a>
 					</li>
 					<li className='mb-4'>
-						<a className='text-primary underline hover:text-secondary' href='https://www.linkedin.com/in/joeribreedveld/' target='_blank'>
+						<a className='text-primary underline hover:text-secondary' href='https://www.linkedin.com/in/joeribreedveld/' target='_blank' rel='noreferrer'>
 							LinkedIn
 						</a>
 					</li>
