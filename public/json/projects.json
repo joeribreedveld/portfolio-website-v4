@@ -9,7 +9,8 @@
 		"live": "https://joeribreedveld.com",
 		"skills": ["Next.js", "TailwindCSS", "Adobe XD", "TypeScript"],
 		"date": "Juli 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "joeribreedveld"
 	},
 	{
 		"id": "1",
@@ -21,7 +22,8 @@
 		"live": "https://test.oorsprongsdocumenten.nl",
 		"skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
 		"date": "Juni 2022",
-		"madeat": "Oorsprongsdocumenten"
+		"madeat": "Oorsprongsdocumenten",
+		"slug": "oorsprongsdocumenten"
 	},
 	{
 		"id": "2",
@@ -33,7 +35,8 @@
 		"live": "",
 		"skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
 		"date": "Juni 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "taskmanager"
 	},
 	{
 		"id": "3",
@@ -45,7 +48,8 @@
 		"live": "https://32653.hosts1.ma-cloud.nl/F1M2BO/",
 		"skills": ["HTML", "CSS", "JavaScript"],
 		"date": "Januari 2022",
-		"madeat": "Mediacollege Amsterdam"
+		"madeat": "Mediacollege Amsterdam",
+		"slug": "museumonline"
 	},
 	{
 		"id": "4",
@@ -57,7 +61,8 @@
 		"live": "http://32653.hosts1.ma-cloud.nl/JOERI/",
 		"skills": ["HTML", "CSS", "JavaScript"],
 		"date": "April 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "portfolio1"
 	},
 	{
 		"id": "5",
@@ -69,7 +74,8 @@
 		"live": "",
 		"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
 		"date": "Juni 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "portfolio2"
 	},
 	{
 		"id": "6",
@@ -81,7 +87,8 @@
 		"live": "https://portfolio-website-v3-ivory.vercel.app/",
 		"skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
 		"date": "Juni 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "portfolio3"
 	},
 	{
 		"id": "7",
@@ -93,7 +100,8 @@
 		"live": "http://32653.hosts1.ma-cloud.nl/DUURZAAMHUIS/",
 		"skills": ["HTML", "CSS", "JavaScript", "ChartJS"],
 		"date": "April 2022",
-		"madeat": "Mediacollege Amsterdam"
+		"madeat": "Mediacollege Amsterdam",
+		"slug": "duurzaamhuis"
 	},
 	{
 		"id": "8",
@@ -105,7 +113,8 @@
 		"live": "https://joeribreedveld.github.io/javascript-stopwatch/",
 		"skills": ["HTML", "CSS", "JavaScript"],
 		"date": "Mei 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "stopwatch"
 	},
 	{
 		"id": "9",
@@ -117,7 +126,8 @@
 		"live": "",
 		"skills": ["MongoDB", "Express.js", "React", "Node.js", "Mongoose"],
 		"date": "Juni 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "workoutbuddy"
 	},
 	{
 		"id": "10",
@@ -129,7 +139,8 @@
 		"live": "",
 		"skills": ["Laravel", "Breeze", "JavaScript", "Sass", "TailwindCSS"],
 		"date": "Juni 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "breezeblog"
 	},
 	{
 		"id": "11",
@@ -141,7 +152,8 @@
 		"live": "",
 		"skills": ["Python"],
 		"date": "Maart 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "pythoncalculator"
 	},
 	{
 		"id": "12",
@@ -153,6 +165,7 @@
 		"live": "https://netninja-nextjs-beta.vercel.app/",
 		"skills": ["Next.js"],
 		"date": "Juli 2022",
-		"madeat": "-"
+		"madeat": "-",
+		"slug": "ninjalist"
 	}
 ]
