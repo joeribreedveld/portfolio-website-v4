@@ -3,6 +3,7 @@
 		"id": "1",
 		"title": "Aruna",
 		"intro": "Website over onder water robots. Gemaakt met Wordpress. In samenwerking met studenten van Mediacollege Amsterdam.",
+		"description": "Dit is een project dat ik met een groepje uit mijn klas bij Mediacollege heb gemaakt. We hebben een WordPress website gemaakt voor een hobby van iemand met water drones maken. Voor dit project had ik nog nooit gewerkt met WordPress. Ik heb geleerd hoe je moet samenwerken met mensen aan een project en hoe je moet werken met WordPress.",
 		"time": "May 2022 - Now",
 		"img": "/img/experience/aruna.jpg",
 		"slug": "aruna"
@@ -11,6 +12,7 @@
 		"id": "2",
 		"title": "Oorsprongsdocumenten.nl",
 		"intro": "Ecommerce website met support systeem en een search engine. Gemaakt met Next.js",
+		"description": "Dit is een marketing website voor het bedrijf van mijn oom. Het heeft ook een groot support systeem met een search bar gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken.",
 		"time": "June 2022 - Now",
 		"img": "/img/experience/osd.jpg",
 		"slug": "oorsprongsdocumenten"

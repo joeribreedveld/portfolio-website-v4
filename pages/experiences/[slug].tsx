@@ -16,7 +16,7 @@ const experience: NextPage = ({ experience }: any) => {
 				<img src={experience.img} alt='experience image' className='object-cover h-96 w-full rounded-lg mb-8 shadow-lg' />
 				<h3 className='text-2xl font-bold mb-4'>{experience.title}</h3>
 				<p className='mb-8 font-bold text-slate-500'>{experience.time}</p>
-				<p>{experience.intro}</p>
+				<p>{experience.description}</p>
 			</div>
 		</>
 	)
