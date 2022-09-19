@@ -1,16 +1,18 @@
 [
 	{
 		"id": "1",
-		"name": "Aruna",
+		"title": "Aruna",
 		"intro": "Website over onder water robots. Gemaakt met Wordpress. In samenwerking met studenten van Mediacollege Amsterdam.",
 		"time": "May 2022 - Now",
-		"img": "/img/experience/aruna.jpg"
+		"img": "/img/experience/aruna.jpg",
+		"slug": "aruna"
 	},
 	{
 		"id": "2",
-		"name": "Oorsprongsdocumenten.nl",
+		"title": "Oorsprongsdocumenten.nl",
 		"intro": "Ecommerce website met support systeem en een search engine. Gemaakt met Next.js",
 		"time": "June 2022 - Now",
-		"img": "/img/experience/osd.jpg"
+		"img": "/img/experience/osd.jpg",
+		"slug": "oorsprongsdocumenten"
 	}
 ]

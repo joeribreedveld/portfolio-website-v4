@@ -12,7 +12,7 @@ function Experience() {
 						<h3 className='text-lg md:text-xl font-bold mb-4'>{experience.name}</h3>
 						<p className='mb-4 text-secondary font-bold'>{experience.time}</p>
 						<p className='mb-4'>{experience.intro}</p>
-						<a href='#' className='text-primary underline hover:text-secondary'>
+						<a href={"/experiences/" + experience.slug} className='text-primary underline hover:text-secondary'>
 							Meer informatie
 						</a>
 					</div>
