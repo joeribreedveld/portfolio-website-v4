@@ -17,32 +17,32 @@ function Navbar() {
 					<img onClick={() => router.push("/")} className='h-8 hover:cursor-pointer' src='/img/jb-logo-white.png' alt='Logo' />
 					<ul className='flex gap-12'>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Home</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='about' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='about' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Over mij</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Skills</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Projecten</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Werkervaring</p>
 							</Link>
 						</li>
 						<li className='hover:cursor-pointer'>
-							<Link activeClass='text-slate-400' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass='text-slate-400' href='/' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Contact</p>
 							</Link>
 						</li>
@@ -66,32 +66,32 @@ function Navbar() {
 					</div>
 
 					<ul className={open ? "flex flex-col py-4 mt-4 w-full" : "hidden"}>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='hero' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Home</p>
 							</li>
 						</Link>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='about' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='about' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Over mij</p>
 							</li>
 						</Link>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='skills' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Skills</p>
 							</li>
 						</Link>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='projects' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Projecten</p>
 							</li>
 						</Link>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='experience' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Werkervaring</p>
 							</li>
 						</Link>
-						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
+						<Link onClick={() => setOpen(false)} activeClass='text-slate-400' href='/' to='contact' spy={true} smooth={true} offset={-70} duration={500}>
 							<li className='hover:cursor-pointer w-full bg-red p-4 hover:bg-primary'>
 								<p className='w-full h-full'>Contact</p>
 							</li>
