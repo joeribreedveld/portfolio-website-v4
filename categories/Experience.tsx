@@ -9,7 +9,7 @@ function Experience() {
 				<li className='bg-white rounded-xl' key={experience.id}>
 					<img src={experience.img} alt='Experience image' className='rounded-t-xl object-cover h-48 w-full' />
 					<div className='p-8'>
-						<h3 className='text-lg md:text-xl font-bold mb-4'>{experience.name}</h3>
+						<h3 className='text-lg md:text-xl font-bold mb-4'>{experience.title}</h3>
 						<p className='mb-4 text-secondary font-bold'>{experience.time}</p>
 						<p className='mb-4'>{experience.intro}</p>
 						<a href={"/experiences/" + experience.slug} className='text-primary underline hover:text-secondary'>
