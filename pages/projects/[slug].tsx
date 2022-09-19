@@ -9,7 +9,12 @@ const Project: NextPage = ({ project }: any) => {
 	return (
 		<>
 			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>
+				<a className='block mb-8 underline text-primary hover:text-secondary' href='/#projects'>
+					Ga terug
+				</a>
+				<img src={project.img} alt='Project image' className='object-cover h-96 w-full rounded-lg mb-8 shadow-lg' />
 				<h3 className='text-2xl font-bold mb-4'>{project.title}</h3>
+				<p className='mb-8 font-bold text-slate-500'>{project.date}</p>
 				<p>{project.description}</p>
 			</div>
 		</>
