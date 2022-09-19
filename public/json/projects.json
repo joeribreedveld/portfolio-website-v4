@@ -2,7 +2,7 @@
 	{
 		"id": "0",
 		"title": "joeribreedveld.com",
-		"img": "/img/projects/joeribreedveld.png",
+		"img": "/img/projects/joeribreedveld.jpg",
 		"intro": "Portfolio website. De website waar je nu naar kijkt.",
 		"description": "Dit is mijn portfolio website. Dit is de laatste versie van mijn portfolio. Ik heb het zelf gedesigned met Adobe XD en ook zelf geprogrammeerd met Next.js in een paar maanden. Ik ben lang bezig geweesd met het vinden van een design waar ik blij mee was. In totaal ben ik meer dan een half jaar bezig geweest met versies maken en na 5 versies was ik klaar.",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v2",
@@ -15,7 +15,7 @@
 	{
 		"id": "1",
 		"title": "oorsprongsdocumenten.nl",
-		"img": "/img/projects/oorsprongsdocumenten.png",
+		"img": "/img/projects/oorsprongsdocumenten.jpg",
 		"intro": "MERN ecommerce website met support pagina en admin panel.",
 		"description": "Dit is een marketing website voor het bedrijf van mijn oom. Het heeft ook een groot support systeem met een search bar gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken.",
 		"github": "",
@@ -80,7 +80,7 @@
 	{
 		"id": "6",
 		"title": "Portfolio Website V3",
-		"img": "/img/projects/portfolio3.png",
+		"img": "/img/projects/portfolio3.jpg",
 		"intro": "Mijn derde oude portfolio website.",
 		"description": "De beschrijving van dit project is helaas nog niet geschreven.",
 		"github": "https://github.com/joeribreedveld/portfolio-website-v3",
@@ -132,7 +132,7 @@
 	{
 		"id": "10",
 		"title": "Laravel Blog",
-		"img": "/img/projects/laravelblog.png",
+		"img": "/img/projects/laravelblog.jpg",
 		"intro": "Laravel Blog gemaakt met Breeze",
 		"description": "De beschrijving van dit project is helaas nog niet geschreven.",
 		"github": "https://github.com/joeribreedveld/laravel-breeze",
@@ -145,7 +145,7 @@
 	{
 		"id": "11",
 		"title": "Python CLI Calculator",
-		"img": "/img/projects/pythoncalculator.png",
+		"img": "/img/projects/pythoncalculator.jpg",
 		"intro": "Python Calculator in command line",
 		"description": "De beschrijving van dit project is helaas nog niet geschreven.",
 		"github": "https://github.com/joeribreedveld/python-cli-calculator",
@@ -158,7 +158,7 @@
 	{
 		"id": "12",
 		"title": "NetNinja Ninja List",
-		"img": "/img/projects/ninjalist.png",
+		"img": "/img/projects/ninjalist.jpg",
 		"intro": "Next.js dynamic routing project van The Net Ninja.",
 		"description": "De beschrijving van dit project is helaas nog niet geschreven.",
 		"github": "https://github.com/joeribreedveld/netninja-nextjs",
