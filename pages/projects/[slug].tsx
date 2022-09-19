@@ -2,6 +2,7 @@
 import type { GetStaticProps, NextPage } from "next"
 import projects from "../../public/json/projects.json"
 import { useRouter } from "next/router"
+import Link from "next/link"
 
 // Functions
 const Project: NextPage = ({ project }: any) => {
@@ -9,9 +10,9 @@ const Project: NextPage = ({ project }: any) => {
 	return (
 		<>
 			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>
-				<a className='block mb-8 underline text-primary hover:text-secondary' href='/#projects'>
-					Ga terug
-				</a>
+				<Link href='/#projects'>
+					<p className='block mb-8 underline text-primary hover:text-secondary hover:cursor-pointer'>Ga terug</p>
+				</Link>
 				<img src={project.img} alt='Project image' className='object-cover h-96 w-full rounded-lg mb-8 shadow-lg' />
 				<h3 className='text-2xl font-bold mb-4'>{project.title}</h3>
 				<p className='mb-8 font-bold text-slate-500'>{project.date}</p>
