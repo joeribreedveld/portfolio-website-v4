@@ -10,7 +10,7 @@ const experience: NextPage = ({ experience }: any) => {
 	return (
 		<>
 			<div className='bg-white min-h-[100vh] page-padding-x page-padding-y'>
-				<Link href='/#experiences'>
+				<Link href='/#experience'>
 					<p className='block mb-8 underline text-primary hover:text-secondary hover:cursor-pointer'>Ga terug</p>
 				</Link>
 				<img src={experience.img} alt='experience image' className='object-cover h-96 w-full rounded-lg mb-8 shadow-lg' />
