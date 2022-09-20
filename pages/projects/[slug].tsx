@@ -19,7 +19,7 @@ const Project: NextPage = ({ project }: any) => {
 				<ul className='mb-8 flex gap-6 items-center'>
 					<li>
 						{project.github ? (
-							<a className='' href={project.github}>
+							<a className='' href={project.github} target='_blank' rel='noreferrer'>
 								<FiGithub size={24} className='hover:text-primary transition ease-in-out duration-200' />
 							</a>
 						) : (
@@ -28,7 +28,7 @@ const Project: NextPage = ({ project }: any) => {
 					</li>
 					<li>
 						{project.live ? (
-							<a className='' href={project.live}>
+							<a className='' href={project.live} target='_blank' rel='noreferrer'>
 								<FiExternalLink size={24} className='hover:text-primary transition ease-in-out duration-200' />
 							</a>
 						) : (
