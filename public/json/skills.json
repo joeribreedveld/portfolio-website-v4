@@ -63,5 +63,10 @@
 		"id": "13",
 		"name": "MongoDB",
 		"img": "/img/skills/mongodb.png"
+	},
+	{
+		"id": "14",
+		"name": "Next.js",
+		"img": "/img/skills/next.png"
 	}
 ]

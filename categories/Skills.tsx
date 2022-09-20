@@ -17,7 +17,8 @@ function Skills() {
 	return (
 		<>
 			<section className='page-padding-x page-padding-y bg-gray' id='skills'>
-				<h2 className='font-bold text-2xl mb-8'>Mijn skills</h2>
+				<h2 className='font-bold text-2xl mb-4'>Mijn skills</h2>
+				<p className='pb-10'>Dit is een lijst van technologiën waar ik mee kan werken.</p>
 				<ul className='grid grid-cols-2 md:grid-cols-4 gap-6 mb-8'>{skillList}</ul>
 				<a href='https://github.com/joeribreedveld' target='_blank' className='text-primary underline hover:text-secondary'>
 					Check mijn GitHub
