@@ -17,24 +17,24 @@ const Project: NextPage = ({ project }: any) => {
 				<h3 className='text-2xl font-bold mb-4'>{project.title}</h3>
 				<p className='mb-6 font-bold text-slate-500'>{project.date}</p>
 				<ul className='mb-8 flex gap-6 items-center'>
-					<li>
-						{project.github ? (
+					{project.github ? (
+						<li>
 							<a className='' href={project.github} target='_blank' rel='noreferrer'>
 								<FiGithub size={24} className='hover:text-primary transition ease-in-out duration-200' />
 							</a>
-						) : (
-							""
-						)}
-					</li>
-					<li>
-						{project.live ? (
+						</li>
+					) : (
+						""
+					)}
+					{project.live ? (
+						<li>
 							<a className='' href={project.live} target='_blank' rel='noreferrer'>
 								<FiExternalLink size={24} className='hover:text-primary transition ease-in-out duration-200' />
 							</a>
-						) : (
-							""
-						)}
-					</li>
+						</li>
+					) : (
+						""
+					)}
 				</ul>
 
 				<p>{project.description}</p>
