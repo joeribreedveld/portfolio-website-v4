@@ -5,7 +5,7 @@ import { useRouter } from "next/router"
 import Link from "next/link"
 
 // Functions
-const experience: NextPage = ({ experience }: any) => {
+const Experience: NextPage = ({ experience }: any) => {
 	console.log(experience)
 	return (
 		<>
@@ -46,4 +46,4 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
 }
 
 // Exports
-export default experience
+export default Experience
