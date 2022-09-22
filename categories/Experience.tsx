@@ -26,7 +26,7 @@ function Experience() {
 			<section className='page-padding-x page-padding-y bg-gray' id='experience'>
 				<h2 className='font-bold text-2xl mb-4'>Mijn werkervaring</h2>
 				<p className='pb-10 md:w-1/2'>Dit is een lijst met bedrijven waar ik heb gewerkt. Klik op meer informatie voor een detail pagina per bedrijf.</p>
-				<ul className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16'>{experienceList}</ul>
+				<ul className='grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-16'>{experienceList}</ul>
 			</section>
 		</>
 	)

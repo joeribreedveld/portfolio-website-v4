@@ -25,7 +25,7 @@ function Projects() {
 				<p className='pb-10 md:w-1/2'>
 					Dit is een lijst van projecten die ik heb gemaakt. Je kan per project op meer informatie klikken voor een aparte pagina per project met meer informatie.
 				</p>
-				<ul className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-16'>{projectList}</ul>
+				<ul className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-16'>{projectList}</ul>
 			</section>
 		</>
 	)
