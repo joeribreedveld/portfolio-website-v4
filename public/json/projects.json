@@ -169,6 +169,19 @@
 		"slug": "ninjalist"
 	},
 	{
+		"id": "13",
+		"title": "Coffeez",
+		"img": "/img/projects/coffeez.jpg",
+		"intro": "React Coffee website for school assignment.",
+		"description": "Dit project is een coffee website voor een school opdracht met React. Ik heb hier geleerd hoe je met react props kan doorgeven en functies.",
+		"github": "https://github.com/joeribreedveld/coffeez",
+		"live": "https://coffeez.vercel.app/",
+		"skills": ["React"],
+		"date": "September 2022",
+		"madeat": "-",
+		"slug": "coffeez"
+	},
+	{
 		"id": "14",
 		"title": "Collezione",
 		"img": "/img/projects/collezione.jpg",
@@ -180,5 +193,18 @@
 		"date": "September 2022",
 		"madeat": "-",
 		"slug": "collezione"
+	},
+	{
+		"id": "15",
+		"title": "React Todo",
+		"img": "/img/projects/reacttodo.jpg",
+		"intro": "React opdracht todo list voor school",
+		"description": "Dit project is een todo list in React voor een school opdracht bij Mediacollege Amsterdam.",
+		"github": "https://github.com/joeribreedveld/react-todo",
+		"live": "https://react-todo-nine-delta.vercel.app/",
+		"skills": ["React"],
+		"date": "September 2022",
+		"madeat": "-",
+		"slug": "reacttodo"
 	}
 ]
