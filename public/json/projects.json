@@ -169,16 +169,16 @@
 		"slug": "ninjalist"
 	},
 	{
-		"id": "13",
-		"title": "Coffeez",
-		"img": "/img/projects/coffeez.jpg",
-		"intro": "React Coffee website for school assignment.",
-		"description": "Dit project is een coffee website voor een school opdracht met React. Ik heb hier geleerd hoe je met react props kan doorgeven en functies.",
-		"github": "https://github.com/joeribreedveld/coffeez",
-		"live": "https://coffeez.vercel.app/",
-		"skills": ["React"],
+		"id": "14",
+		"title": "Collezione",
+		"img": "/img/projects/collezione.jpg",
+		"intro": "Next.js headspace games website voor school.",
+		"description": "Dit project is een Next.js website in het thema Headsace en inhoud games voor een school opdracht. We moeten een website maken over een onderwerp en daarin React dingen maken.",
+		"github": "https://github.com/joeribreedveld/collezione",
+		"live": "https://collezione-games.vercel.app/",
+		"skills": ["React", "Next.js", "Sass"],
 		"date": "September 2022",
 		"madeat": "-",
-		"slug": "coffeez"
+		"slug": "collezione"
 	}
 ]
