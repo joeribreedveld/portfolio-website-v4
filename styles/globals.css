@@ -33,5 +33,5 @@ html {
 }
 
 body {
-    @apply bg-black text-lg
+    @apply bg-black
 }
