@@ -8,7 +8,8 @@ function Projects() {
 			<>
 				<li key={project.id}>
 					<img src={project.img} alt='Project image' className='object-cover h-48 w-full rounded-lg mb-4 shadow-lg' />
-					<h3 className='text-xl font-bold mb-4'>{project.title}</h3>
+					<h3 className='text-xl font-bold mb-2'>{project.title}</h3>
+					<h4 className='mb-2 text-secondary font-bold'>{project.date}</h4>
 					<p className='mb-4'>{project.intro}</p>
 					<a href={"/projects/" + project.slug} className='text-primary underline hover:text-secondary'>
 						Meer informatie

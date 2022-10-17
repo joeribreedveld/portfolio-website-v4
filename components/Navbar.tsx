@@ -21,7 +21,7 @@ function Navbar() {
 				{/* Navbar */}
 				<div className='hidden lg:flex justify-between w-full items-center'>
 					<img onClick={() => router.push("/")} className='h-8 hover:cursor-pointer' src='/img/jb-logo-white.png' alt='Logo' />
-					<ul className='flex gap-12'>
+					<ul className='flex gap-16'>
 						<li className='hover:cursor-pointer'>
 							<Link activeClass='text-slate-400' to='hero' onClick={handleAway} spy={true} smooth={true} offset={-70} duration={500}>
 								<p>Home</p>
