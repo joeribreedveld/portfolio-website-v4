@@ -172,7 +172,7 @@
 		"id": "13",
 		"title": "Coffeez",
 		"img": "/img/projects/coffeez.jpg",
-		"intro": "React Coffee website for school assignment.",
+		"intro": "React Coffee website voor school opdracht.",
 		"description": "Dit project is een coffee website voor een school opdracht met React. Ik heb hier geleerd hoe je met react props kan doorgeven en functies.",
 		"github": "https://github.com/joeribreedveld/coffeez",
 		"live": "https://coffeez.vercel.app/",
