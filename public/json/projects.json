@@ -190,7 +190,7 @@
     "github": "https://github.com/joeribreedveld/collezione",
     "live": "https://collezione-games.vercel.app/",
     "skills": ["React", "Next.js", "Sass"],
-    "date": "9-2022",
+    "date": "10-2022",
     "madeat": "-",
     "slug": "collezione"
   },
@@ -216,7 +216,7 @@
     "github": "https://github.com/joeribreedveld/traversy-graphql-mern",
     "live": "",
     "skills": ["GraphQL", "MongoDB", "Express.js", "React", "Node.js"],
-    "date": "9-2022",
+    "date": "10-2022",
     "madeat": "-",
     "slug": "traversygraphql"
   },
