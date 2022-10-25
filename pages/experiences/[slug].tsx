@@ -25,6 +25,7 @@ const Experience: NextPage = ({ experience }: any) => {
           className="mb-8 text-primary underline hover:text-secondary"
           href={experience.link}
           target="_blank"
+          rel="noreferrer"
         >
           Link naar bedrijf
         </a>
