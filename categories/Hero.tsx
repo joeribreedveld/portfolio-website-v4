@@ -8,7 +8,7 @@ function Hero() {
   return (
     <>
       <section
-        className="page-padding-x page-padding-y bg-gradient-to-br from-sky-900 via-slate-900 to-blue-900 text-white min-h-screen flex justify-center items-center flex-col text-center md:text-left"
+        className="page-padding-x page-padding-y bg-black text-white min-h-screen flex justify-center items-center flex-col text-center md:text-left"
         id="hero"
       >
         <h1 className="text-primary font-bold text-4xl md:text-6xl mb-8">
