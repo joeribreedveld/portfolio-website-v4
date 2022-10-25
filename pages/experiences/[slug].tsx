@@ -1,7 +1,6 @@
 // Imports
 import type { GetStaticProps, NextPage } from "next";
 import experiences from "../../public/json/experiences.json";
-import { useRouter } from "next/router";
 import Link from "next/link";
 
 // Functions
@@ -27,7 +26,7 @@ const Experience: NextPage = ({ experience }: any) => {
           href={experience.link}
           target="_blank"
         >
-          Link naar website
+          Link naar bedrijf
         </a>
         <p className="mt-6">{experience.description}</p>
       </div>
