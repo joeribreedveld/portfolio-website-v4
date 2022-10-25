@@ -8,7 +8,7 @@
     "github": "https://github.com/joeribreedveld/portfolio-website-v2",
     "live": "https://joeribreedveld.com",
     "skills": ["Next.js", "TailwindCSS", "Adobe XD", "TypeScript"],
-    "date": "Juli 2022",
+    "date": "10-2022",
     "madeat": "-",
     "slug": "joeribreedveld"
   },
@@ -21,7 +21,7 @@
     "github": "",
     "live": "https://test.oorsprongsdocumenten.nl",
     "skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
-    "date": "Juni 2022",
+    "date": "10-2022",
     "madeat": "Oorsprongsdocumenten",
     "slug": "oorsprongsdocumenten"
   },
@@ -34,7 +34,7 @@
     "github": "https://github.com/joeribreedveld/task-manager-api",
     "live": "",
     "skills": ["Node.js", "Express", "MongoDB", "Mongoose", "Rest API"],
-    "date": "Juni 2022",
+    "date": "6-2022",
     "madeat": "-",
     "slug": "taskmanager"
   },
@@ -47,7 +47,7 @@
     "github": "https://github.com/joeribreedveld/f1m2-museum-online",
     "live": "https://32653.hosts1.ma-cloud.nl/F1M2BO/",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "date": "Januari 2022",
+    "date": "1-2022",
     "madeat": "Mediacollege Amsterdam",
     "slug": "museumonline"
   },
@@ -60,7 +60,7 @@
     "github": "https://github.com/joeribreedveld/portfolio-website-v1",
     "live": "http://32653.hosts1.ma-cloud.nl/JOERI/",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "date": "April 2022",
+    "date": "4-2022",
     "madeat": "-",
     "slug": "portfolio1"
   },
@@ -73,7 +73,7 @@
     "github": "https://github.com/joeribreedveld/portfolio-website-v3",
     "live": "",
     "skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
-    "date": "Juni 2022",
+    "date": "6-2022",
     "madeat": "-",
     "slug": "portfolio2"
   },
@@ -86,7 +86,7 @@
     "github": "https://github.com/joeribreedveld/portfolio-website-v3",
     "live": "https://portfolio-website-v3-ivory.vercel.app/",
     "skills": ["Next.js", "TypeScript", "Sass", "Adobe XD"],
-    "date": "Juni 2022",
+    "date": "6-2022",
     "madeat": "-",
     "slug": "portfolio3"
   },
@@ -99,7 +99,7 @@
     "github": "https://github.com/joeribreedveld/f2m3-duurzaam-huis",
     "live": "http://32653.hosts1.ma-cloud.nl/DUURZAAMHUIS/",
     "skills": ["HTML", "CSS", "JavaScript", "ChartJS"],
-    "date": "April 2022",
+    "date": "4-2022",
     "madeat": "Mediacollege Amsterdam",
     "slug": "duurzaamhuis"
   },
@@ -112,7 +112,7 @@
     "github": "https://github.com/joeribreedveld/javascript-stopwatch",
     "live": "https://joeribreedveld.github.io/javascript-stopwatch/",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "date": "Mei 2022",
+    "date": "5-2022",
     "madeat": "-",
     "slug": "stopwatch"
   },
@@ -125,7 +125,7 @@
     "github": "https://github.com/joeribreedveld/mern-workout-buddy",
     "live": "",
     "skills": ["MongoDB", "Express.js", "React", "Node.js", "Mongoose"],
-    "date": "Juni 2022",
+    "date": "6-2022",
     "madeat": "-",
     "slug": "workoutbuddy"
   },
@@ -138,7 +138,7 @@
     "github": "https://github.com/joeribreedveld/laravel-breeze",
     "live": "",
     "skills": ["Laravel", "Breeze", "JavaScript", "Sass", "TailwindCSS"],
-    "date": "Juni 2022",
+    "date": "6-2022",
     "madeat": "-",
     "slug": "breezeblog"
   },
@@ -151,7 +151,7 @@
     "github": "https://github.com/joeribreedveld/python-cli-calculator",
     "live": "",
     "skills": ["Python"],
-    "date": "Maart 2022",
+    "date": "3-2022",
     "madeat": "-",
     "slug": "pythoncalculator"
   },
@@ -164,7 +164,7 @@
     "github": "https://github.com/joeribreedveld/netninja-nextjs",
     "live": "https://netninja-nextjs-beta.vercel.app/",
     "skills": ["Next.js"],
-    "date": "Juli 2022",
+    "date": "7-2022",
     "madeat": "-",
     "slug": "ninjalist"
   },
@@ -177,7 +177,7 @@
     "github": "https://github.com/joeribreedveld/coffeez",
     "live": "https://coffeez.vercel.app/",
     "skills": ["React"],
-    "date": "September 2022",
+    "date": "9-2022",
     "madeat": "-",
     "slug": "coffeez"
   },
@@ -190,7 +190,7 @@
     "github": "https://github.com/joeribreedveld/collezione",
     "live": "https://collezione-games.vercel.app/",
     "skills": ["React", "Next.js", "Sass"],
-    "date": "September 2022",
+    "date": "9-2022",
     "madeat": "-",
     "slug": "collezione"
   },
@@ -203,7 +203,7 @@
     "github": "https://github.com/joeribreedveld/react-todo",
     "live": "https://react-todo-nine-delta.vercel.app/",
     "skills": ["React"],
-    "date": "September 2022",
+    "date": "9-2022",
     "madeat": "Mediacollege Amsterdam",
     "slug": "reacttodo"
   },
@@ -216,7 +216,7 @@
     "github": "https://github.com/joeribreedveld/traversy-graphql-mern",
     "live": "",
     "skills": ["GraphQL", "MongoDB", "Express.js", "React", "Node.js"],
-    "date": "September 2022",
+    "date": "9-2022",
     "madeat": "-",
     "slug": "traversygraphql"
   },
@@ -229,7 +229,7 @@
     "github": "https://github.com/joeribreedveld/f3m9-prog-pokemon",
     "live": "https://reactomon.vercel.app/",
     "skills": ["React"],
-    "date": "September 2022",
+    "date": "9-2022",
     "madeat": "Mediacollege Amsterdam",
     "slug": "reactpokemon"
   }
