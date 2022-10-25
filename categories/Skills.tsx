@@ -36,7 +36,7 @@ function Skills() {
           target="_blank"
           className="text-primary underline hover:text-secondary"
         >
-          Check mijn GitHub
+          Bekijk mijn GitHub
         </a>
       </section>
     </>
