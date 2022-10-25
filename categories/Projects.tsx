@@ -32,7 +32,8 @@ function Projects() {
         <h2 className="font-bold text-2xl mb-4">Mijn projecten</h2>
         <p className="pb-10 md:w-1/2">
           Dit is een lijst van projecten die ik heb gemaakt. Je kan per project
-          een uitgebreide pagina bekijken met meer informatie.
+          een uitgebreide pagina bekijken met meer informatie. Onderaan de
+          pagina staan de meest recente projecten.
         </p>
         <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-16">
           {projectList}
