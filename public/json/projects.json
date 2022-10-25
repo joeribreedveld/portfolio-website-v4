@@ -230,6 +230,7 @@
     "live": "https://reactomon.vercel.app/",
     "skills": ["React"],
     "date": "September 2022",
-    "madeat": "Mediacollege Amsterdam"
+    "madeat": "Mediacollege Amsterdam",
+    "slug": "reactpokemon"
   }
 ]
