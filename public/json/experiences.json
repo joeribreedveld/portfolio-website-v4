@@ -1,11 +1,12 @@
 [
-	{
-		"id": "1",
-		"title": "Oorsprongsdocumenten.nl",
-		"intro": "Ecommerce website met support systeem en een search engine. Gemaakt met Next.js",
-		"description": "Dit is een marketing website voor het bedrijf van mijn oom. Het heeft ook een groot support systeem met een search bar gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken.",
-		"time": "Juni 2022 - Nu",
-		"img": "/img/experience/osd.jpg",
-		"slug": "oorsprongsdocumenten"
-	}
+  {
+    "id": "1",
+    "title": "Oorsprongsdocumenten.nl",
+    "intro": "Ecommerce website met support systeem en een search engine. Gemaakt met Next.js",
+    "description": "Dit is een marketing website voor het bedrijf van mijn oom. Het heeft ook een groot support systeem met een search bar gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken.",
+    "time": "Juni 2022 - Nu",
+    "img": "/img/experience/osd.jpg",
+    "slug": "oorsprongsdocumenten",
+    "link": "https://oorsprongsdocumenten.nl"
+  }
 ]
