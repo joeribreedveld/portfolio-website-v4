@@ -1,72 +1,123 @@
 [
-	{
-		"id": "1",
-		"name": "HTML",
-		"img": "/img/skills/html.png"
-	},
-	{
-		"id": "2",
-		"name": "CSS",
-		"img": "/img/skills/css.png"
-	},
-	{
-		"id": "3",
-		"name": "JavaScript",
-		"img": "/img/skills/javascript.png"
-	},
-	{
-		"id": "4",
-		"name": "React",
-		"img": "/img/skills/react.png"
-	},
-	{
-		"id": "5",
-		"name": "Sass",
-		"img": "/img/skills/sass.png"
-	},
-	{
-		"id": "6",
-		"name": "Laravel",
-		"img": "/img/skills/laravel.png"
-	},
-	{
-		"id": "7",
-		"name": "Git",
-		"img": "/img/skills/git.png"
-	},
-	{
-		"id": "8",
-		"name": "MERN",
-		"img": "/img/skills/mern.png"
-	},
-	{
-		"id": "9",
-		"name": "Adobe XD",
-		"img": "/img/skills/adobexd.png"
-	},
-	{
-		"id": "10",
-		"name": "VSCode",
-		"img": "/img/skills/vscode.png"
-	},
-	{
-		"id": "11",
-		"name": "Node.js",
-		"img": "/img/skills/node.png"
-	},
-	{
-		"id": "12",
-		"name": "Express.js",
-		"img": "/img/skills/express.png"
-	},
-	{
-		"id": "13",
-		"name": "MongoDB",
-		"img": "/img/skills/mongodb.png"
-	},
-	{
-		"id": "14",
-		"name": "Next.js",
-		"img": "/img/skills/next.png"
-	}
+  {
+    "id": "1",
+    "name": "HTML",
+    "img": "/img/skills/html.png"
+  },
+  {
+    "id": "2",
+    "name": "CSS",
+    "img": "/img/skills/css.png"
+  },
+  {
+    "id": "3",
+    "name": "JavaScript",
+    "img": "/img/skills/javascript.png"
+  },
+  {
+    "id": "4",
+    "name": "React",
+    "img": "/img/skills/react.png"
+  },
+  {
+    "id": "5",
+    "name": "Sass",
+    "img": "/img/skills/sass.png"
+  },
+  {
+    "id": "6",
+    "name": "Laravel",
+    "img": "/img/skills/laravel.png"
+  },
+  {
+    "id": "7",
+    "name": "Git",
+    "img": "/img/skills/git.png"
+  },
+  {
+    "id": "8",
+    "name": "MERN",
+    "img": "/img/skills/mern.png"
+  },
+  {
+    "id": "9",
+    "name": "Adobe XD",
+    "img": "/img/skills/adobexd.png"
+  },
+  {
+    "id": "10",
+    "name": "VSCode",
+    "img": "/img/skills/vscode.png"
+  },
+  {
+    "id": "11",
+    "name": "Node.js",
+    "img": "/img/skills/node.png"
+  },
+  {
+    "id": "12",
+    "name": "Express.js",
+    "img": "/img/skills/express.png"
+  },
+  {
+    "id": "13",
+    "name": "MongoDB",
+    "img": "/img/skills/mongodb.png"
+  },
+  {
+    "id": "14",
+    "name": "Next.js",
+    "img": "/img/skills/next.png"
+  },
+  {
+    "id": "15",
+    "name": "GraphQL",
+    "img": "/img/skills/graphql.png"
+  },
+  {
+    "id": "16",
+    "name": "Apollo",
+    "img": "/img/skills/apollo.png"
+  },
+  {
+    "id": "17",
+    "name": "TypeScript",
+    "img": "/img/skills/typescript.png"
+  },
+  {
+    "id": "18",
+    "name": "Tailwind CSS",
+    "img": "/img/skills/tailwind.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Bootstrap",
+    "img": "/img/skills/bootstrap.png"
+  },
+  {
+    "id": "20",
+    "name": "Prisma",
+    "img": "/img/skills/prisma.png"
+  },
+  {
+    "id": "21",
+    "name": "MySQL",
+    "img": "/img/skills/mysql.png"
+  },
+  {
+    "id": "22",
+    "name": "Solr",
+    "img": "/img/skills/solr.png"
+  },
+  {
+    "id": "23",
+    "name": "Docker",
+    "img": "/img/skills/docker.png"
+  },
+  {
+    "id": "24",
+    "name": "PostgreSQL",
+    "img": "/img/skills/postgresql.png"
+  },
+  {}
 ]
