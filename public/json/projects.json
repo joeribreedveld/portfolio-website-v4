@@ -17,7 +17,7 @@
     "title": "oorsprongsdocumenten.nl",
     "img": "/img/projects/oorsprongsdocumenten.jpg",
     "intro": "MERN ecommerce website met support pagina en admin panel.",
-    "description": "Dit is een marketing website voor het bedrijf van mijn oom. Het heeft ook een groot support systeem met een search bar gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken.",
+    "description": "Dit is een marketing website voor het bedrijf van mijn oom. De website heeft ook een groot support systeem met een search engine gemaakt met Solr en Next.js. Het is nog niet helemaal af en ik ben in Juni begonnen met het maken. De website staat nog niet online dus de link werkt nog niet.",
     "github": "",
     "live": "https://test.oorsprongsdocumenten.nl",
     "skills": ["Next.js", "MERN", "Adobe XD", "TypeScript", "Node.js"],
