@@ -16,7 +16,7 @@ function About() {
           zoeken totdat ik de oplossing heb gevonden en ik maak elke dag tijd
           vrij om iets nieuws te leren. Ook werk ik erg gestructureerd.
         </p>
-        <p className="mb-4 md:text-lg md:w-3/4">
+        <p className="mb-8 md:text-lg md:w-3/4">
           Ik ben geïnteresseerd in het maken van websites en web applicaties. Ik
           weet nog niet precies wat ik later wil doen als developer, maar ik
           vind frontend en backend beide interessant. Mijn ambitie is om een
@@ -32,8 +32,8 @@ function About() {
           offset={-70}
           duration={500}
         >
-          <p className="text-primary underline hover:cursor-pointer hover:text-secondary">
-            Bekijk mijn projecten
+          <p className="button text-white bg-tertiary hover:bg-primary active:bg-secondary">
+            Mijn projecten
           </p>
         </Link>
       </section>

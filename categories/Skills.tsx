@@ -1,5 +1,6 @@
 // Imports
 import skills from "../public/json/skills.json";
+import Link from "next/link";
 
 // Functions
 function Skills() {
@@ -28,16 +29,18 @@ function Skills() {
         <p className="pb-10">
           Dit is een lijst van technologiën waar ik mee kan werken.
         </p>
-        <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+        <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
           {skillList}
         </ul>
-        <a
-          href="https://github.com/joeribreedveld"
-          target="_blank"
-          className="text-primary underline hover:text-secondary"
-        >
-          Bekijk mijn GitHub
-        </a>
+        <Link href="https://github.com/joeribreedveld">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="button text-white bg-tertiary hover:bg-primary active:bg-secondary"
+          >
+            Mijn GitHub
+          </a>
+        </Link>
       </section>
     </>
   );

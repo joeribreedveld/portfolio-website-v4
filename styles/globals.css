@@ -13,7 +13,7 @@
     }
 
     .page-padding-y {
-        @apply md:pb-48 md:pt-48 pb-32 pt-32
+        @apply md:pb-48 md:pt-48 pb-24 pt-24
     }
 
     .navbar-gap {
@@ -23,7 +23,7 @@
 
 @layer components {
     .button {
-        @apply py-4 px-8 rounded-2xl w-fit transition duration-200
+        @apply shadow-md py-4 px-8 rounded-full w-fit transition duration-200 hover:cursor-pointer
     }
 }
 
