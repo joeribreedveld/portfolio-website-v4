@@ -7,6 +7,7 @@ function Contact() {
       <section className="page-padding-x page-padding-y bg-white" id="contact">
         <h2 className="font-bold text-2xl mb-4">Contact</h2>
         <p className="mb-6">Neem gerust contact met mij op.</p>
+        <p className="mb-6">joeri.breedveld123@gmail.com</p>
         <ul>
           <li className="mb-4">
             <a
