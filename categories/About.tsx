@@ -5,10 +5,10 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function About() {
   return (
     <>
-      <section className="page-padding-x page-padding-y bg-white" id="about">
-        <h2 className="font-bold text-2xl mb-6">Over mij</h2>
+      <section className="bg-white page-padding-x page-padding-y" id="about">
+        <h2 className="mb-6 text-2xl font-bold">Over mij</h2>
         <p className="mb-8 md:w-3/4 md:text-lg">
-          Hallo, mijn naam is Joeri Breedveld, ik ben 17 jaar oud en woon in
+          Hallo, mijn naam is Joeri Breedveld, ik ben 18 jaar oud en woon in
           Amsterdam. Ik programmeer sinds 2021 en ik studeer Software
           Development aan het Mediacollege Amsterdam. In mijn vrije tijd werk ik
           veel aan kleine projecten. Ook volg ik veel tutorials op Youtube en
@@ -32,7 +32,7 @@ function About() {
           offset={-70}
           duration={500}
         >
-          <p className="button text-white bg-tertiary hover:bg-primary active:bg-secondary">
+          <p className="text-white button bg-tertiary hover:bg-primary active:bg-secondary">
             Mijn projecten
           </p>
         </Link>
